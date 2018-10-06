@@ -156,7 +156,9 @@
                     <div class="markdown">
                     {{if eq .Lang "zh-CN"}}
                         <h3>测试</h3>
-                        <video src="/static/video/kaierdele.mp4" poster="/static/img/fruits/mugua.jpg" autoplay="autoplay">test</video>
+                        <video  controls>
+                            <source src="/static/video/kaierdele.mp4" type="video/mp4">
+                        </video>
                     {{else}}
                     {{end}}
                     </div>
