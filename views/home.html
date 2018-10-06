@@ -41,31 +41,41 @@
                             <p>创建文件 <code>hello.go</code></p>
                             <pre lang="go"><code>package main<br><br>import "github.com/astaxie/beego"<br><br>func main() {<br>    beego.Run()<br>}</code></pre>
                             -->
+                            <h3>木瓜</h3>
                             <img src="/static/img/fruits/mugua.jpg">
+
                         {{else}}
+                            <!--
                             <p>Download and install</p>
                             <pre lang="bash"><code>go get github.com/astaxie/beego</code></pre>
                             <p>Create file <code>hello.go</code></p>
                             <pre lang="go"><code>package main<br><br>import "github.com/astaxie/beego"<br><br>func main() {<br>    beego.Run()<br>}</code></pre>
+                            -->
                         {{end}}
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="markdown">
                         {{if eq .Lang "zh-CN"}}
+                            <!--
                             <p>编译运行</p>
                             <pre lang="bash"><code>go build -o hello hello.go<br>./hello</code></pre>
                             <p>浏览效果</p>
                             <p>打开浏览器并访问 <code>http://localhost:8080</code></p>
                             <p>恭喜！您已经成功构建了第一个 beego 项目。</p>
                             <p>请查阅 <a href="/docs">开发文档</a> 以进行深入学习。</p>
+                            -->
+                            <h3>百香果</h3>
+                            <img src="/static/img/fruits/baixiangguo.jpg">
                         {{else}}
+                                <!--
                             <p>Build and run</p>
                             <pre lang="bash"><code>go build hello.go<br>./hello</code></pre>
                             <p>View effects</p>
                             <p>Open your browser and visit <code>http://localhost:8080</code></p>
                             <p>Congratulations! You just built your first beego app.</p>
                             <p>Please see <a href="/docs">Documentation</a> for going further.</p>
+                                -->
                         {{end}}
                     </div>
                 </div>
