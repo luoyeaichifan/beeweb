@@ -16,7 +16,7 @@
                 <div class="desc">
                     {{i18n .Lang "home.beego_desc"}}
                 </div>
-                <<!--
+                <!--
                 <div class="actions">
                     <a href="/docs/intro/" class="btn btn-lg btn-info">{{i18n .Lang "learn more"}}</a>
                     <a href="/quickstart" class="btn btn-lg btn-success">{{i18n .Lang "get started"}}</a>
@@ -30,15 +30,18 @@
 <div class="container">
     <div class="row home-box">
         <div class="col-md-8">
-            <h2>{{i18n .Lang "home.quick_start"}}</h2>
+            <h2>{{i18n .Lang "home.fruit"}}</h2>
             <div class="row">
                 <div class="col-md-6">
                     <div class="markdown">
                         {{if eq .Lang "zh-CN"}}
+                            <!--
                             <p>下载安装</p>
                             <pre lang="bash"><code>go get github.com/astaxie/beego</code></pre>
                             <p>创建文件 <code>hello.go</code></p>
                             <pre lang="go"><code>package main<br><br>import "github.com/astaxie/beego"<br><br>func main() {<br>    beego.Run()<br>}</code></pre>
+                            -->
+                            <img style="height:32px;width:102px;" src="/static/img/fruits/mugua.jpg">
                         {{else}}
                             <p>Download and install</p>
                             <pre lang="bash"><code>go get github.com/astaxie/beego</code></pre>
