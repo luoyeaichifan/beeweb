@@ -14,7 +14,7 @@
 
 package routers
 
-import "github.com/beego/beeweb/models"
+import "github.com/luoyeaichifan/beeweb/models"
 
 // HomeRouter serves home page.
 type VideoRouter struct {

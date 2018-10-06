@@ -22,7 +22,7 @@ import (
 	"github.com/astaxie/beego/context"
 	"github.com/beego/i18n"
 
-	"github.com/beego/beeweb/models"
+	"github.com/luoyeaichifan/beeweb/models"
 )
 
 // DocsRouter serves about page.

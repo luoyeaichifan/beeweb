@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/beego/beeweb/models"
+	"github.com/luoyeaichifan/beeweb/models"
 )
 
 type ProductsRouter struct {

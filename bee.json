@@ -10,7 +10,7 @@
 		]
 	},
 	"bale": {
-		"import": "github.com/beego/beeweb/bale",
+		"import": "github.com/luoyeaichifan/beeweb/bale",
 		"dirs": [
 			"conf", "views", "static"
 		],

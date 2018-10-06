@@ -17,7 +17,7 @@ package routers
 import (
 	"strings"
 
-	"github.com/beego/beeweb/models"
+	"github.com/luoyeaichifan/beeweb/models"
 )
 
 // BlogRouter serves about page.

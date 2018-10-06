@@ -21,8 +21,8 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/beego/i18n"
 
-	"github.com/beego/beeweb/models"
-	"github.com/beego/beeweb/routers"
+	"github.com/luoyeaichifan/beeweb/models"
+	"github.com/luoyeaichifan/beeweb/routers"
 )
 
 const (
