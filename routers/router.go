@@ -74,11 +74,11 @@ func (this *baseRouter) setLangVer() bool {
 	//}
 	//
 	//// Check again in case someone modify by purpose.
-	//if !i18n.IsExist(lang) {
-	//	lang = ""
-	//	isNeedRedir = false
-	//	hasCookie = false
-	//}
+	if !i18n.IsExist(lang) {
+		lang = ""
+		isNeedRedir = false
+		hasCookie = false
+	}
 	//
 	//// 3. Get language information from 'Accept-Language'.
 	//if len(lang) == 0 {
