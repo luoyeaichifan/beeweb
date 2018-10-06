@@ -83,21 +83,27 @@
         </div>
         <div class="col-md-4">
             <div class="home-box">
-                <h2>{{i18n .Lang "home.further_reading"}}</h2>
+                <h2>{{i18n .Lang "home.weixin"}}</h2>
                 <div class="well markdown">
                     <ul class="list-unstyled">
                         {{if eq .Lang "zh-CN"}}
+                            <h3>联系我吧，有保障的售后</h3>
+                            <img src="/static/img/fruits/weixin.png">
+                            <!--
                             <li><i class="icon-angle-right"></i> <a href="/docs/mvc/controller/router.md">控制器路由设置</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/mvc/model/overview.md">ORM 入门</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/mvc/view/view.md">模板处理</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/examples/">官方开发示例</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/module/">可选高级模块</a></li>
+                            -->
                         {{else}}
+                                <!--
                             <li><i class="icon-angle-right"></i> <a href="/docs/mvc/controller/router.md">Router and Controller</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/mvc/model/overview.md">ORM Usage</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/mvc/view/view.md">Template Usage</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/examples/">Beego Samples</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/module/">Optional Advanced Modules</a></li>
+                            -->
                         {{end}}
                     </ul>
                 </div>
