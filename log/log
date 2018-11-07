@@ -922,3 +922,9 @@
 2018/11/07 11:12:20.563 [I] [graphite.go:48]  1_what_is_graphite/1_什么是时间序列数据.md 
 2018/11/07 11:12:30.800 [I] [graphite.go:36]  I am here 
 2018/11/07 11:12:30.800 [I] [graphite.go:48]  1_what_is_graphite/1_什么是时间序列数据.md 
+2018/11/07 14:23:07.766 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 14:23:07.793 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 14:23:29.158 [I] [graphite.go:36]  I am here 
+2018/11/07 14:23:29.158 [I] [graphite.go:48]   
+2018/11/07 14:23:31.574 [I] [graphite.go:36]  I am here 
+2018/11/07 14:23:31.574 [I] [graphite.go:48]  1_what_is_graphite/1_什么是时间序列数据.md 
