@@ -11,180 +11,81 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="title">
-                    果果妈-颐和果园
+                    Beego Framework
                 </div>
                 <div class="desc">
                     {{i18n .Lang "home.beego_desc"}}
                 </div>
-                <!--
                 <div class="actions">
                     <a href="/docs/intro/" class="btn btn-lg btn-info">{{i18n .Lang "learn more"}}</a>
                     <a href="/quickstart" class="btn btn-lg btn-success">{{i18n .Lang "get started"}}</a>
                     <span style="position:absolute;margin:10px 0 0 40px;">{{i18n .Lang "version"}}</span>
                 </div>
-                -->
             </div>
         </div>
     </div>
 </div>
-<!-->水果<-->
 <div class="container">
     <div class="row home-box">
         <div class="col-md-8">
-            <h2>{{i18n .Lang "home.fruit"}}</h2>
+            <h2>{{i18n .Lang "home.quick_start"}}</h2>
             <div class="row">
                 <div class="col-md-6">
                     <div class="markdown">
                         {{if eq .Lang "zh-CN"}}
-                            <!--
                             <p>下载安装</p>
                             <pre lang="bash"><code>go get github.com/astaxie/beego</code></pre>
                             <p>创建文件 <code>hello.go</code></p>
                             <pre lang="go"><code>package main<br><br>import "github.com/astaxie/beego"<br><br>func main() {<br>    beego.Run()<br>}</code></pre>
-                            -->
-                            <h3>木瓜</h3>
-                            <img src="/static/img/fruits/mugua.jpg">
-
                         {{else}}
-                            <!--
                             <p>Download and install</p>
                             <pre lang="bash"><code>go get github.com/astaxie/beego</code></pre>
                             <p>Create file <code>hello.go</code></p>
                             <pre lang="go"><code>package main<br><br>import "github.com/astaxie/beego"<br><br>func main() {<br>    beego.Run()<br>}</code></pre>
-                            -->
                         {{end}}
                     </div>
                 </div>
-
                 <div class="col-md-6">
                     <div class="markdown">
-                    {{if eq .Lang "zh-CN"}}
-                        <!--
-                        <p>编译运行</p>
-                        <pre lang="bash"><code>go build -o hello hello.go<br>./hello</code></pre>
-                        <p>浏览效果</p>
-                        <p>打开浏览器并访问 <code>http://localhost:8080</code></p>
-                        <p>恭喜！您已经成功构建了第一个 beego 项目。</p>
-                        <p>请查阅 <a href="/docs">开发文档</a> 以进行深入学习。</p>
-                        -->
-                        <h3>百香果</h3>
-                        <img src="/static/img/fruits/baixiangguo.jpg">
-                    {{else}}
-                        <!--
-                    <p>Build and run</p>
-                    <pre lang="bash"><code>go build hello.go<br>./hello</code></pre>
-                    <p>View effects</p>
-                    <p>Open your browser and visit <code>http://localhost:8080</code></p>
-                    <p>Congratulations! You just built your first beego app.</p>
-                    <p>Please see <a href="/docs">Documentation</a> for going further.</p>
-                        -->
-                    {{end}}
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="markdown">
-                    {{if eq .Lang "zh-CN"}}
-                        <h3>火龙果</h3>
-                        <img src="/static/img/fruits/huolongguo.jpeg">
-                    {{else}}
-                        <!--
-                    <p>Build and run</p>
-                    <pre lang="bash"><code>go build hello.go<br>./hello</code></pre>
-                    <p>View effects</p>
-                    <p>Open your browser and visit <code>http://localhost:8080</code></p>
-                    <p>Congratulations! You just built your first beego app.</p>
-                    <p>Please see <a href="/docs">Documentation</a> for going further.</p>
-                        -->
-                    {{end}}
+                        {{if eq .Lang "zh-CN"}}
+                            <p>编译运行</p>
+                            <pre lang="bash"><code>go build -o hello hello.go<br>./hello</code></pre>
+                            <p>浏览效果</p>
+                            <p>打开浏览器并访问 <code>http://localhost:8080</code></p>
+                            <p>恭喜！您已经成功构建了第一个 beego 项目。</p>
+                            <p>请查阅 <a href="/docs">开发文档</a> 以进行深入学习。</p>
+                        {{else}}
+                            <p>Build and run</p>
+                            <pre lang="bash"><code>go build hello.go<br>./hello</code></pre>
+                            <p>View effects</p>
+                            <p>Open your browser and visit <code>http://localhost:8080</code></p>
+                            <p>Congratulations! You just built your first beego app.</p>
+                            <p>Please see <a href="/docs">Documentation</a> for going further.</p>
+                        {{end}}
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <h2>{{i18n .Lang "home.weixin"}}</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="markdown">
-                    {{if eq .Lang "zh-CN"}}
-                        <h3>24h微信交流，售后有保障</h3>
-                        <img src="/static/img/fruits/weixin.png">
-                    {{else}}
-                    {{end}}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--
         <div class="col-md-4">
             <div class="home-box">
-                <h2>{{i18n .Lang "home.weixin"}}</h2>
+                <h2>{{i18n .Lang "home.further_reading"}}</h2>
                 <div class="well markdown">
                     <ul class="list-unstyled">
                         {{if eq .Lang "zh-CN"}}
-                            <h3>联系我吧，有保障的售后</h3>
-                            <img src="/static/img/fruits/weixin.png">
-
                             <li><i class="icon-angle-right"></i> <a href="/docs/mvc/controller/router.md">控制器路由设置</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/mvc/model/overview.md">ORM 入门</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/mvc/view/view.md">模板处理</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/examples/">官方开发示例</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/module/">可选高级模块</a></li>
-
                         {{else}}
-
                             <li><i class="icon-angle-right"></i> <a href="/docs/mvc/controller/router.md">Router and Controller</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/mvc/model/overview.md">ORM Usage</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/mvc/view/view.md">Template Usage</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/examples/">Beego Samples</a></li>
                             <li><i class="icon-angle-right"></i> <a href="/docs/module/">Optional Advanced Modules</a></li>
-
                         {{end}}
                     </ul>
                 </div>
-            </div>
-        </div>
-        -->
-    </div>
-</div>
-<!-->尿不湿<-->
-<div class="container">
-    <div class="row home-box">
-        <div class="col-md-8">
-            <h2>{{i18n .Lang "home.diaper"}}</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="markdown">
-                    {{if eq .Lang "zh-CN"}}
-                        <h3>测试</h3>
-                        <video width="340" height="340" poster="/static/img/diaper/kaerdele.jpg" controls>
-                            <source src="/static/video/kaierdele.mp4" type="video/mp4">
-                        </video>
-                    {{else}}
-                    {{end}}
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="markdown">
-                    {{if eq .Lang "zh-CN"}}
-                        <h3>凯儿得乐</h3>
-                        <img src="/static/img/diaper/kaierdele2.jpg">
-                    {{else}}
-
-                    {{end}}
-                    </div>
-                </div>
-                <!--
-                <div class="col-md-6">
-
-                    <div class="markdown">
-                    {{if eq .Lang "zh-CN"}}
-                        <h3>火龙果</h3>
-                        <img src="/static/img/fruits/huolongguo.jpeg">
-                    {{else}}
-                    {{end}}
-                    </div>
-                </div>
-                -->
             </div>
         </div>
     </div>
@@ -198,14 +99,14 @@
                     <div class="feature">
                         <h3 class="title">
                             {{if eq .Lang "zh-CN"}}
-                                强大的售后服务体系
+                                简单化
                             {{else}}
                                 EASY TO USE
                             {{end}}
                         </h3>
                         <p class="content">
                             {{if eq .Lang "zh-CN"}}
-                                每一份水果卖出，我们都会持续追踪物流信息，让每一位顾客享受到贴心服务。在颐和果园，我们不会让任何一个客户承担损失，我们有强大的售后体系：烂了，我们赔！不熟，我们赔！只要图片符合我们的售后格式，闪电理赔！客人买的安心，代理卖的放心!
+                                RESTful 支持、MVC 模型，可以使用 bee 工具快速地开发应用，包括监控代码修改进行热编译、自动化测试代码以及自动化打包部署。
                             {{else}}
                                 With RESTful support, MVC model, and use bee tool to build your apps quickly with features including code hot compile, automated testing, and automated packing and deploying.
                             {{end}}
@@ -216,14 +117,14 @@
                     <div class="feature">
                         <h3 class="title">
                             {{if eq .Lang "zh-CN"}}
-                                专业且系统的培训课程
+                                智能化
                             {{else}}
                                 INTELLIGENT
                             {{end}}
                         </h3>
                         <p class="content">
                             {{if eq .Lang "zh-CN"}}
-                                颐和果园不止给代理供货，更是培养优秀代理的黄埔军校，从基础的售前、售后，到中级的销售技巧、沟通话术、回访话术、到文案打造、客户心理，几乎每一个细节都进行细化培训，这些培训不管是在互联网销售或者实体销售，都同样受用。
+                                支持智能路由、智能监控，可以监控 QPS、内存消耗、CPU 使用，以及 goroutine 的运行状况，让您的线上应用尽在掌握。
                             {{else}}
                                 With intelligent routing and monitoring, it's able to monitor your QPS, memory and CPU usages, and goroutine status. It provides you full control of your online apps.
                             {{end}}
@@ -234,14 +135,14 @@
                     <div class="feature">
                         <h3 class="title">
                             {{if eq .Lang "zh-CN"}}
-                                始终坚持水果品质第一
+                                模块化
                             {{else}}
                                 MODULAR
                             {{end}}
                         </h3>
                         <p class="content">
                             {{if eq .Lang "zh-CN"}}
-                                5月，贵妃芒销售火爆，果园里符合我们要求的果子太少；7月，砀山黄桃遭遇大雨，果子品质严重下降；8月，火龙果花期提前结束，符合我们要求的果子不够。如果水果品质达不到要求，颐和果园的选择是停止销售，给客户退款或者是等待更多的品质符合我们要求的果子长出来而延迟发货。所有的选择面前，质量永远是我们的第一选择!
+                                beego 内置了强大的模块，包括 Session、缓存操作、日志记录、配置解析、性能监控、上下文操作、ORM 模块、请求模拟等强大的模块，足以支撑你任何的应用。
                             {{else}}
                                 With powerful built-in modules including session control, caching, logging, configuration parsing, performance supervising, context handling, ORM supporting, and requests simulating. You get the powerful foundation for any type of applications.
                             {{end}}
@@ -252,14 +153,14 @@
                     <div class="feature">
                         <h3 class="title">
                             {{if eq .Lang "zh-CN"}}
-                                积极向上的事业心态
+                                高性能
                             {{else}}
                                 HIGH PERFORMANCE
                             {{end}}
                         </h3>
                         <p class="content">
                             {{if eq .Lang "zh-CN"}}
-                                加入颐和果园，想法很简单，就是想给家人带来绿色健康的水果，颐和果园是以绿色健康为理念，新鲜美味为宗旨，从枝头到舌尖只有一条信息的距离，保证所有水果均为摘下就发货，不催熟，不泡药，没有冻库货，不管是老人小孩还是孕妇都吃的安心！
+                                beego 采用了 Go 原生的 http 包来处理请求，goroutine 的并发效率足以应付大流量的 Web 应用和 API 应用，目前已经应用于大量高并发的产品中。
                             {{else}}
                                 With native Go http package to handle the requests and the efficient concurrence of goroutine. Your beego applications can handle massive trafic as beego are doing in many productions.
                             {{end}}
@@ -270,7 +171,6 @@
         </div>
     </div>
 </div>
-        <!--
 <div class="container">
     <div class="row home-box">
         <div class="col-md-12">
@@ -301,7 +201,6 @@
     </div>
 </div>
 <div class="container">
-    {{template "tweets.html" .}}
+<!-- {{template "tweets.html" .}} -->
 </div>
--->
 {{end}}

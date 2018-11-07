@@ -176,6 +176,7 @@ func (d *DocRoot) makeDirNode(path string) error {
 	docDir.RelPath = relPath
 	docDir.IsDir = true
 
+	//beego.Info(fmt.Sprintf("[TEST]docDir:%+v", docDir))
 	return nil
 }
 
@@ -312,6 +313,7 @@ func (d *DocRoot) makeFileNode(path string) error {
 }
 
 func (d *DocRoot) walk(path string, info os.FileInfo, err error) error {
+	//beego.Info("[TEST]path:", path)
 	if err != nil {
 		return filepath.SkipDir
 	}

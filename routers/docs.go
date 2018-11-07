@@ -15,10 +15,10 @@
 package routers
 
 import (
+	"github.com/astaxie/beego"
 	"io"
 	"os"
 
-	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
 	"github.com/beego/i18n"
 
@@ -43,7 +43,7 @@ func (this *DocsRouter) Get() {
 	}
 
 	link := this.GetString(":splat")
-	beego.Info(link)
+	beego.Info("[TEST]link:",link)
 	var doc *models.DocNode
 	if len(link) == 0 {
 		if dRoot.Doc.HasContent() {

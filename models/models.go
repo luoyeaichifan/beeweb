@@ -109,6 +109,17 @@ func parseDocs() {
 
 	if root != nil {
 		docs["zh-CN"] = root
+		//beego.Info(fmt.Sprintf(fmt.Sprintf("CN:%+v", root.Doc)))
+	}
+
+	root, err = ParseDocs("docs/graphite")
+	if err != nil {
+		beego.Error(err)
+	}
+
+	if root != nil {
+		docs["graphite"] = root
+		//beego.Info(fmt.Sprintf(fmt.Sprintf("graphite:%+v", root.Doc)))
 	}
 
 	root, err = ParseDocs("docs/en-US")
@@ -366,7 +377,7 @@ func (rf *rawFile) SetData(p []byte) {
 }
 
 func checkFileUpdates() error {
-	beego.Trace("Checking file updates")
+	//beego.Trace("Checking file updates")
 
 	type tree struct {
 		ApiUrl, RawUrl, TreeName, Prefix string

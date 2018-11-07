@@ -73,12 +73,10 @@ func main() {
 	beego.Router("/docs/*", &routers.DocsRouter{})
 	beego.Router("/blog", &routers.BlogRouter{})
 	beego.Router("/blog/*", &routers.BlogRouter{})
-	beego.Router("/blog/*", &routers.BlogRouter{})
-
-	beego.Router("/baidu_verify_Hbvw7qAUmJ.html", &routers.BaiduVerify{})
-
-	//baidu_verify_Hbvw7qAUmJ.html
-
+	beego.Router("/graphite", &routers.GraphiteRouter{})
+	beego.Router("/graphite/*", &routers.GraphiteRouter{})
+	beego.Router("/crawler", &routers.CrawlerRouter{})
+	beego.Router("/crawler/*", &routers.CrawlerRouter{})
 	// Register template functions.
 	beego.AddFuncMap("i18n", i18n.Tr)
 

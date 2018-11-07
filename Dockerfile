@@ -9,6 +9,6 @@ WORKDIR /go/src/github.com/beego/beeweb
 
 RUN go build
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD ["./beeweb"]
