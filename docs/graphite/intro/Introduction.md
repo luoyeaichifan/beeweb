@@ -1,7 +1,7 @@
 ---
 root: true
 name: beego 简介
-sort: 0
+sort: 99
 ---
 
 # beego 简介
