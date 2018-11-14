@@ -5,13 +5,22 @@ sort: 1
 
 关于火焰图与trace的使用
 
-go-torch appBin test.prof test.svg
+go-torch appBin test.prof -f test.svg
 
 go tool trace -http=x.x.x.x:8888 trace.trace
 
 go tool pprof *.prof
 
 [参考](http://lihaoquan.me/2017/1/1/Profiling-and-Optimizing-Go-using-go-torch.html)
+
+```
+git clone https://github.com/brendangregg/FlameGraph.git
+cp flamegraph.pl /usr/local/bin
+flamegraph.pl -h
+go get -v github.com/uber/go-torch
+
+```
+
 
 ```
     package prof

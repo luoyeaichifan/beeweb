@@ -1,0 +1,1076 @@
+2018/11/06 20:00:34.401 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/06 20:00:34.437 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/06 20:02:01.218 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/06 20:02:01.257 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/06 20:02:59.654 [I] [router.go:46]  I am here 
+2018/11/06 20:02:59.655 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:02:59.655 [I] [docs.go:46]  intro/ 
+2018/11/06 20:03:03.207 [I] [router.go:46]  I am here 
+2018/11/06 20:03:03.208 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:03.208 [I] [docs.go:46]  intro/ 
+2018/11/06 20:03:04.959 [I] [router.go:46]  I am here 
+2018/11/06 20:03:04.959 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:04.959 [I] [docs.go:46]  intro/contributing.md 
+2018/11/06 20:03:06.070 [I] [router.go:46]  I am here 
+2018/11/06 20:03:06.070 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:06.070 [I] [docs.go:46]  intro/releases.md 
+2018/11/06 20:03:08.010 [I] [router.go:46]  I am here 
+2018/11/06 20:03:08.010 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:08.010 [I] [docs.go:46]  intro/upgrade.md 
+2018/11/06 20:03:09.282 [I] [router.go:46]  I am here 
+2018/11/06 20:03:09.282 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:09.282 [I] [docs.go:46]  intro/releases.md 
+2018/11/06 20:03:10.524 [I] [router.go:46]  I am here 
+2018/11/06 20:03:10.524 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:10.524 [I] [docs.go:46]  1_intro/ 
+2018/11/06 20:03:12.554 [I] [router.go:46]  I am here 
+2018/11/06 20:03:12.554 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:12.554 [I] [docs.go:46]  1_intro/contributing.md 
+2018/11/06 20:03:14.020 [I] [router.go:46]  I am here 
+2018/11/06 20:03:14.020 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:14.020 [I] [docs.go:46]  1_intro/releases.md 
+2018/11/06 20:03:15.124 [I] [router.go:46]  I am here 
+2018/11/06 20:03:15.124 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:15.124 [I] [docs.go:46]  1_intro/upgrade.md 
+2018/11/06 20:03:16.553 [I] [router.go:46]  I am here 
+2018/11/06 20:03:16.553 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:16.553 [I] [docs.go:46]  2_install/ 
+2018/11/06 20:03:18.945 [I] [router.go:46]  I am here 
+2018/11/06 20:03:18.945 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:18.945 [I] [docs.go:46]  install/ 
+2018/11/06 20:03:21.660 [I] [router.go:46]  I am here 
+2018/11/06 20:03:21.660 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:21.660 [I] [docs.go:46]  install/bee.md 
+2018/11/06 20:03:24.022 [I] [router.go:46]  I am here 
+2018/11/06 20:03:24.022 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:24.022 [I] [docs.go:46]  install/ 
+2018/11/06 20:03:27.063 [I] [router.go:46]  I am here 
+2018/11/06 20:03:27.063 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:27.064 [I] [docs.go:46]  install/bee.md 
+2018/11/06 20:03:28.612 [I] [router.go:46]  I am here 
+2018/11/06 20:03:28.612 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:28.613 [I] [docs.go:46]  3_quickstart/ 
+2018/11/06 20:03:30.452 [I] [router.go:46]  I am here 
+2018/11/06 20:03:30.452 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:30.452 [I] [docs.go:46]  3_quickstart/new.md 
+2018/11/06 20:03:32.067 [I] [router.go:46]  I am here 
+2018/11/06 20:03:32.068 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:32.068 [I] [docs.go:46]  3_quickstart/router.md 
+2018/11/06 20:03:33.521 [I] [router.go:46]  I am here 
+2018/11/06 20:03:33.521 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:33.521 [I] [docs.go:46]  3_quickstart/controller.md 
+2018/11/06 20:03:37.173 [I] [router.go:46]  I am here 
+2018/11/06 20:03:37.173 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:37.173 [I] [docs.go:46]  quickstart/ 
+2018/11/06 20:03:42.229 [I] [router.go:46]  I am here 
+2018/11/06 20:03:42.229 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:42.229 [I] [docs.go:46]  3_quickstart/controller.md 
+2018/11/06 20:03:50.028 [I] [router.go:46]  I am here 
+2018/11/06 20:03:50.028 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:50.028 [I] [docs.go:46]  mvc/model/orm.md 
+2018/11/06 20:03:54.588 [I] [router.go:46]  I am here 
+2018/11/06 20:03:54.588 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:56.662 [I] [router.go:46]  I am here 
+2018/11/06 20:03:56.664 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:03:56.664 [I] [models.go:322]  [TEST]GetDoc: 0x1471cc0 
+2018/11/06 20:03:56.664 [C] [asm_amd64.s:522]  the request url is  /quickstart
+2018/11/06 20:03:56.664 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/11/06 20:03:56.664 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/11/06 20:03:56.664 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/11/06 20:03:56.664 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:82
+2018/11/06 20:03:56.664 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/signal_unix.go:390
+2018/11/06 20:03:56.664 [C] [asm_amd64.s:522]  /Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/routers/quickstart.go:33
+2018/11/06 20:03:56.665 [C] [asm_amd64.s:522]  /Users/kunliang/work/go/src/github.com/astaxie/beego/router.go:829
+2018/11/06 20:03:56.665 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/11/06 20:03:56.665 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/11/06 20:03:56.665 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/11/06 20:08:03.759 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/06 20:08:03.799 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/06 20:12:15.826 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/06 20:12:15.861 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/06 20:15:38.753 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/06 20:15:38.792 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/06 20:16:24.680 [I] [router.go:46]  I am here 
+2018/11/06 20:16:24.680 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:24.682 [I] [models.go:328]  [TEST]GetDoc: 0x1471e60 
+2018/11/06 20:16:24.682 [C] [asm_amd64.s:522]  the request url is  /quickstart
+2018/11/06 20:16:24.682 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/11/06 20:16:24.682 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/11/06 20:16:24.682 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/11/06 20:16:24.682 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:82
+2018/11/06 20:16:24.682 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/signal_unix.go:390
+2018/11/06 20:16:24.682 [C] [asm_amd64.s:522]  /Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/routers/quickstart.go:33
+2018/11/06 20:16:24.682 [C] [asm_amd64.s:522]  /Users/kunliang/work/go/src/github.com/astaxie/beego/router.go:829
+2018/11/06 20:16:24.684 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/11/06 20:16:24.685 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/11/06 20:16:24.686 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/11/06 20:16:29.630 [I] [router.go:46]  I am here 
+2018/11/06 20:16:29.630 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:31.850 [I] [router.go:46]  I am here 
+2018/11/06 20:16:31.850 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:31.850 [I] [models.go:328]  [TEST]GetDoc: 0x1471e60 
+2018/11/06 20:16:31.850 [C] [asm_amd64.s:522]  the request url is  /community
+2018/11/06 20:16:31.850 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/11/06 20:16:31.850 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/11/06 20:16:31.850 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/11/06 20:16:31.850 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:82
+2018/11/06 20:16:31.850 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/signal_unix.go:390
+2018/11/06 20:16:31.850 [C] [asm_amd64.s:522]  /Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/routers/community.go:33
+2018/11/06 20:16:31.851 [C] [asm_amd64.s:522]  /Users/kunliang/work/go/src/github.com/astaxie/beego/router.go:829
+2018/11/06 20:16:31.851 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/11/06 20:16:31.851 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/11/06 20:16:31.851 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/11/06 20:16:36.179 [I] [router.go:46]  I am here 
+2018/11/06 20:16:36.179 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:41.119 [I] [router.go:46]  I am here 
+2018/11/06 20:16:41.119 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:41.119 [I] [docs.go:46]  intro/ 
+2018/11/06 20:16:42.797 [I] [router.go:46]  I am here 
+2018/11/06 20:16:42.797 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:42.797 [I] [models.go:328]  [TEST]GetDoc: 0x1471e60 
+2018/11/06 20:16:42.797 [C] [asm_amd64.s:522]  the request url is  /video
+2018/11/06 20:16:42.797 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/11/06 20:16:42.797 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/11/06 20:16:42.797 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/11/06 20:16:42.797 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:82
+2018/11/06 20:16:42.797 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/signal_unix.go:390
+2018/11/06 20:16:42.797 [C] [asm_amd64.s:522]  /Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/routers/video.go:31
+2018/11/06 20:16:42.797 [C] [asm_amd64.s:522]  /Users/kunliang/work/go/src/github.com/astaxie/beego/router.go:829
+2018/11/06 20:16:42.797 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/11/06 20:16:42.797 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/11/06 20:16:42.797 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/11/06 20:16:46.729 [I] [router.go:46]  I am here 
+2018/11/06 20:16:46.729 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.676 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.676 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.676 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.678 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.678 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.678 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.683 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.683 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.683 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.685 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.685 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.685 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.689 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.689 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.689 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.692 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.692 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.692 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.734 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.734 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.734 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.737 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.738 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.738 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.740 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.740 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.740 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.742 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.742 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.742 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.744 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.744 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.744 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.746 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.746 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.746 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.748 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.748 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.748 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.750 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.750 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.750 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.752 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.752 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.752 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.754 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.754 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.754 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.756 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.756 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.756 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.758 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.758 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.758 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.760 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.760 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.760 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:48.762 [I] [router.go:46]  I am here 
+2018/11/06 20:16:48.762 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:48.762 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.191 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.191 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.191 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.201 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.201 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.201 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.207 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.207 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.207 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.210 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.210 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.210 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.218 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.218 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.218 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.221 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.221 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.221 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.224 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.224 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.224 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.227 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.227 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.227 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.230 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.230 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.230 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.233 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.233 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.233 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.237 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.237 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.237 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.241 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.241 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.241 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.246 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.246 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.246 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.248 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.248 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.248 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.252 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.252 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.252 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.254 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.254 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.254 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.257 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.257 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.258 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.260 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.260 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.260 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.267 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.267 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.267 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:49.270 [I] [router.go:46]  I am here 
+2018/11/06 20:16:49.270 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:49.270 [I] [models.go:342]  [TEST]GetBlog: 0x14720e0 
+2018/11/06 20:16:53.416 [I] [router.go:46]  I am here 
+2018/11/06 20:16:53.416 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:55.834 [I] [router.go:46]  I am here 
+2018/11/06 20:16:55.834 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:16:55.834 [I] [docs.go:46]  intro/ 
+2018/11/06 20:21:49.803 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/06 20:21:49.836 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/06 20:21:54.305 [I] [router.go:46]  I am here 
+2018/11/06 20:21:54.305 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:21:55.765 [I] [router.go:46]  I am here 
+2018/11/06 20:21:55.765 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:21:55.765 [I] [models.go:328]  [TEST]GetDoc: 0x1471e60 
+2018/11/06 20:21:55.765 [C] [asm_amd64.s:522]  the request url is  /quickstart
+2018/11/06 20:21:55.765 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/11/06 20:21:55.765 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/11/06 20:21:55.765 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/11/06 20:21:55.765 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:82
+2018/11/06 20:21:55.765 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/signal_unix.go:390
+2018/11/06 20:21:55.765 [C] [asm_amd64.s:522]  /Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/routers/quickstart.go:33
+2018/11/06 20:21:55.765 [C] [asm_amd64.s:522]  /Users/kunliang/work/go/src/github.com/astaxie/beego/router.go:829
+2018/11/06 20:21:55.766 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/11/06 20:21:55.766 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/11/06 20:21:55.766 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/11/06 20:28:52.287 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/06 20:28:52.324 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/06 20:38:16.507 [I] [router.go:46]  I am here 
+2018/11/06 20:38:16.508 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:38:29.257 [I] [router.go:46]  I am here 
+2018/11/06 20:38:29.257 [I] [router.go:64]  [TEST]setLangVer 
+2018/11/06 20:38:29.257 [I] [models.go:328]  [TEST]GetDoc: 0x1471e60 
+2018/11/06 20:38:29.258 [C] [asm_amd64.s:522]  the request url is  /quickstart
+2018/11/06 20:38:29.258 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/11/06 20:38:29.258 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:522
+2018/11/06 20:38:29.258 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513
+2018/11/06 20:38:29.258 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:82
+2018/11/06 20:38:29.258 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/signal_unix.go:390
+2018/11/06 20:38:29.258 [C] [asm_amd64.s:522]  /Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/routers/quickstart.go:33
+2018/11/06 20:38:29.258 [C] [asm_amd64.s:522]  /Users/kunliang/work/go/src/github.com/astaxie/beego/router.go:829
+2018/11/06 20:38:29.258 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:2741
+2018/11/06 20:38:29.258 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/net/http/server.go:1847
+2018/11/06 20:38:29.258 [C] [asm_amd64.s:522]  /usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s:1333
+2018/11/06 20:40:03.545 [I] [models.go:442]  Need to update: en-US/Controllers_IntegrateApp 
+2018/11/06 20:40:03.545 [I] [models.go:442]  Need to update: en-US/Controllers_SafeMap 
+2018/11/06 20:40:03.545 [I] [models.go:442]  Need to update: en-US/Reference_BeeWatch 
+2018/11/06 20:40:03.545 [I] [models.go:442]  Need to update: en-US/about 
+2018/11/06 20:40:03.545 [I] [models.go:442]  Need to update: en-US/advantage/README 
+2018/11/06 20:40:03.545 [I] [models.go:442]  Need to update: en-US/advantage/docs 
+2018/11/06 20:40:03.545 [I] [models.go:442]  Need to update: en-US/advantage/monitor 
+2018/11/06 20:40:03.545 [I] [models.go:442]  Need to update: en-US/contributed/README 
+2018/11/06 20:40:03.545 [I] [models.go:442]  Need to update: en-US/deploy/README 
+2018/11/06 20:40:03.545 [I] [models.go:442]  Need to update: en-US/deploy/apache 
+2018/11/06 20:40:03.545 [I] [models.go:442]  Need to update: en-US/deploy/beego 
+2018/11/06 20:40:03.595 [I] [models.go:442]  Need to update: en-US/deploy/nginx 
+2018/11/06 20:40:03.595 [I] [models.go:442]  Need to update: en-US/deploy/supervisor 
+2018/11/06 20:40:03.595 [I] [models.go:442]  Need to update: en-US/deploy/systemctl 
+2018/11/06 20:40:03.595 [I] [models.go:442]  Need to update: en-US/donate 
+2018/11/06 20:40:03.595 [I] [models.go:442]  Need to update: en-US/examples/README 
+2018/11/06 20:40:03.595 [I] [models.go:442]  Need to update: en-US/examples/chat 
+2018/11/06 20:40:03.596 [I] [models.go:442]  Need to update: en-US/examples/shorturl 
+2018/11/06 20:40:03.596 [I] [models.go:442]  Need to update: en-US/examples/todo 
+2018/11/06 20:40:03.596 [I] [models.go:442]  Need to update: en-US/faq/FAQ 
+2018/11/06 20:40:03.596 [I] [models.go:442]  Need to update: en-US/images/401.png 
+2018/11/06 20:40:03.596 [I] [models.go:442]  Need to update: en-US/images/architecture.png 
+2018/11/06 20:40:03.596 [I] [models.go:442]  Need to update: en-US/images/beerun.png 
+2018/11/06 20:40:03.596 [I] [models.go:442]  Need to update: en-US/images/detail.png 
+2018/11/06 20:40:03.596 [I] [models.go:442]  Need to update: en-US/images/dev.png 
+2018/11/06 20:40:03.596 [I] [models.go:442]  Need to update: en-US/images/doc_test.png 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/images/docs.png 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/images/flow.png 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/images/git-branch-1.png 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/images/toolbox.jpg 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/install/bee 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/install/install 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/intro/Introduction 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/intro/contributing 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/intro/releases 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/module/README 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/module/cache 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/module/config 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/module/context 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/module/httplib 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/module/i18n 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/module/logs 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/module/session 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/module/toolbox 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/README 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/README 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/config 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/controller 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/errors 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/filter 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/flash 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/jsonxml 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/logs 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/params 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/router 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/session 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/urlbuilding 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/validation 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/controller/xsrf 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/model/README 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/model/cmd 
+2018/11/06 20:40:03.597 [I] [models.go:442]  Need to update: en-US/mvc/model/custom_fields 
+2018/11/06 20:40:03.598 [I] [models.go:442]  Need to update: en-US/mvc/model/faq 
+2018/11/06 20:40:03.598 [I] [models.go:442]  Need to update: en-US/mvc/model/models 
+2018/11/06 20:40:03.598 [I] [models.go:442]  Need to update: en-US/mvc/model/object 
+2018/11/06 20:40:03.598 [I] [models.go:442]  Need to update: en-US/mvc/model/orm 
+2018/11/06 20:40:03.598 [I] [models.go:442]  Need to update: en-US/mvc/model/overview 
+2018/11/06 20:40:03.598 [I] [models.go:442]  Need to update: en-US/mvc/model/query 
+2018/11/06 20:40:03.603 [I] [models.go:442]  Need to update: en-US/mvc/model/querybuilder 
+2018/11/06 20:40:03.604 [I] [models.go:442]  Need to update: en-US/mvc/model/rawsql 
+2018/11/06 20:40:03.604 [I] [models.go:442]  Need to update: en-US/mvc/model/test 
+2018/11/06 20:40:03.604 [I] [models.go:442]  Need to update: en-US/mvc/model/transaction 
+2018/11/06 20:40:03.604 [I] [models.go:442]  Need to update: en-US/mvc/view/README 
+2018/11/06 20:40:03.604 [I] [models.go:442]  Need to update: en-US/mvc/view/page 
+2018/11/06 20:40:03.604 [I] [models.go:442]  Need to update: en-US/mvc/view/static 
+2018/11/06 20:40:03.604 [I] [models.go:442]  Need to update: en-US/mvc/view/template 
+2018/11/06 20:40:03.604 [I] [models.go:442]  Need to update: en-US/mvc/view/view 
+2018/11/06 20:40:03.604 [I] [models.go:442]  Need to update: en-US/quickstart 
+2018/11/06 20:40:03.604 [I] [models.go:442]  Need to update: en-US/quickstart/README 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: en-US/quickstart/controller 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: en-US/quickstart/model 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: en-US/quickstart/new 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: en-US/quickstart/router 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: en-US/quickstart/static 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: en-US/quickstart/view 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: en-US/screencasts 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: en-US/team 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: en-US/usecases 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: images/401.png 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: images/architecture.png 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: images/beerun.png 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: images/detail.png 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: images/dev.png 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: images/doc_test.png 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: images/docs.png 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: images/flow.png 
+2018/11/06 20:40:03.605 [I] [models.go:442]  Need to update: images/git-branch-1.png 
+2018/11/06 20:40:03.606 [I] [models.go:442]  Need to update: images/monitoring.png 
+2018/11/06 20:40:03.606 [I] [models.go:442]  Need to update: ja/Controllers_IntegrateApp 
+2018/11/06 20:40:03.606 [I] [models.go:442]  Need to update: ja/Controllers_SafeMap 
+2018/11/06 20:40:03.606 [I] [models.go:442]  Need to update: ja/Reference_BeeWatch 
+2018/11/06 20:40:03.606 [I] [models.go:442]  Need to update: ja/about 
+2018/11/06 20:40:03.606 [I] [models.go:442]  Need to update: ja/advantage/README 
+2018/11/06 20:40:03.606 [I] [models.go:442]  Need to update: ja/advantage/docs 
+2018/11/06 20:40:03.606 [I] [models.go:442]  Need to update: ja/advantage/monitor 
+2018/11/06 20:40:03.606 [I] [models.go:442]  Need to update: ja/contributed/README 
+2018/11/06 20:40:03.606 [I] [models.go:442]  Need to update: ja/examples/chat 
+2018/11/06 20:40:03.606 [I] [models.go:442]  Need to update: ja/examples/shorturl 
+2018/11/06 20:40:03.606 [I] [models.go:442]  Need to update: ja/examples/todo 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/faq/FAQ 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/install/bee 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/install/install 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/intro/Introduction 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/module/README 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/module/cache 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/module/config 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/module/context 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/module/httplib 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/module/i18n 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/module/logs 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/module/session 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/module/toolbox 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/mvc/controller/README 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/mvc/model/README 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/mvc/view/README 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/quickstart 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/team 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ja/usecases 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ru-RU/Controllers_IntegrateApp 
+2018/11/06 20:40:03.607 [I] [models.go:442]  Need to update: ru-RU/Reference_BeeWatch 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/about 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/advantage/README 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/advantage/docs 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/advantage/monitor 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/contributed/README 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/contributing_rules 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/deploy/README 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/deploy/apache 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/deploy/beego 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/deploy/nginx 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/deploy/supervisor 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/donate 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/examples/README 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/examples/chat 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/examples/shorturl 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/examples/todo 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/faq/FAQ 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/images/401.png 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/images/architecture.png 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/images/beerun.png 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/images/detail.png 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/images/dev.png 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/images/doc_test.png 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/images/docs.png 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/images/flow.png 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/images/git-branch-1.png 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/images/toolbox.jpg 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/install/bee 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/install/install 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/intro/Introduction 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/intro/contributing 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/intro/releases 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/intro/upgrade 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/module/README 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/module/cache 
+2018/11/06 20:40:03.608 [I] [models.go:442]  Need to update: ru-RU/module/config 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/module/context 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/module/httplib 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/module/i18n 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/module/logs 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/module/session 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/module/toolbox 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/quickstart 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/quickstart/README 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/quickstart/controller 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/quickstart/model 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/quickstart/new 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/quickstart/router 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/quickstart/static 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/quickstart/view 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/screencasts 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/team 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: ru-RU/usecases 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/Controllers_IntegrateApp 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/Controllers_SafeMap 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/Reference_BeeWatch 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/about 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/advantage/README 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/advantage/docs 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/advantage/monitor 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/contributed/README 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/deploy/README 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/deploy/apache 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/deploy/beego 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/deploy/nginx 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/deploy/supervisor 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/donate 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/examples/README 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/examples/chat 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/examples/shorturl 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/examples/todo 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/faq/FAQ 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/images/401.png 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/images/architecture.png 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/images/beerun.png 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/images/detail.png 
+2018/11/06 20:40:03.609 [I] [models.go:442]  Need to update: tr-TR/images/dev.png 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/images/doc_test.png 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/images/docs.png 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/images/flow.png 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/images/git-branch-1.png 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/images/toolbox.jpg 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/install/bee 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/install/install 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/intro/Introduction 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/intro/contributing 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/intro/releases 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/module/README 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/module/cache 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/module/config 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/module/context 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/module/httplib 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/module/i18n 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/module/logs 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/module/session 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/module/toolbox 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/README 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/README 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/config 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/controller 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/errors 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/filter 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/flash 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/jsonxml 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/logs 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/params 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/router 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/session 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/urlbuilding 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/validation 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/controller/xsrf 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/model/README 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/model/cmd 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/model/custom_fields 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/model/faq 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/model/models 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/model/object 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/model/orm 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/model/overview 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/model/query 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/model/querybuilder 
+2018/11/06 20:40:03.610 [I] [models.go:442]  Need to update: tr-TR/mvc/model/rawsql 
+2018/11/06 20:40:03.611 [I] [models.go:442]  Need to update: tr-TR/mvc/model/test 
+2018/11/06 20:40:03.611 [I] [models.go:442]  Need to update: tr-TR/mvc/model/transaction 
+2018/11/06 20:40:03.611 [I] [models.go:442]  Need to update: tr-TR/mvc/view/README 
+2018/11/06 20:40:03.611 [I] [models.go:442]  Need to update: tr-TR/mvc/view/page 
+2018/11/06 20:40:03.611 [I] [models.go:442]  Need to update: tr-TR/mvc/view/static 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/mvc/view/template 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/mvc/view/view 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/quickstart 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/quickstart/README 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/quickstart/controller 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/quickstart/model 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/quickstart/new 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/quickstart/router 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/quickstart/static 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/quickstart/view 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/screencasts 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/team 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: tr-TR/usecases 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/Controllers_IntegrateApp 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/Controllers_SafeMap 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/Reference_BeeWatch 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/about 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/advantage/README 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/advantage/docs 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/advantage/monitor 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/contributed/README 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/deploy/README 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/deploy/apache 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/deploy/beego 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/deploy/nginx 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/deploy/supervisor 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/donate 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/examples/README 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/examples/chat 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/examples/shorturl 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/examples/todo 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/faq/FAQ 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/images/401.png 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/images/adminui.png 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/images/architecture.png 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/images/beerun.png 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/images/detail.png 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/images/dev.png 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/images/doc_test.png 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/images/docs.png 
+2018/11/06 20:40:03.612 [I] [models.go:442]  Need to update: zh-CN/images/flow.png 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/images/git-branch-1.png 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/images/init.png 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/images/toolbox.jpg 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/install/bee 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/install/install 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/intro/Introduction 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/intro/contributing 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/intro/releases 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/intro/upgrade 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/module/README 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/module/cache 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/module/config 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/module/context 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/module/grace 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/module/httplib 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/module/i18n 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/module/logs 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/module/session 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/module/toolbox 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/README 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/README 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/config 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/controller 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/errors 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/filter 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/flash 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/jsonxml 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/logs 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/params 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/router 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/session 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/urlbuilding 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/validation 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/controller/xsrf 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/README 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/cmd 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/custom_fields 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/faq 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/models 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/object 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/orm 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/overview 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/query 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/querybuilder 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/rawsql 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/test 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/model/transaction 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/view/README 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/view/page 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/view/static 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/view/template 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/view/tutorial 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/mvc/view/view 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/quickstart 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/quickstart/README 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/quickstart/controller 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/quickstart/model 
+2018/11/06 20:40:03.613 [I] [models.go:442]  Need to update: zh-CN/quickstart/new 
+2018/11/06 20:40:03.614 [I] [models.go:442]  Need to update: zh-CN/quickstart/router 
+2018/11/06 20:40:03.614 [I] [models.go:442]  Need to update: zh-CN/quickstart/static 
+2018/11/06 20:40:03.614 [I] [models.go:442]  Need to update: zh-CN/quickstart/view 
+2018/11/06 20:40:03.614 [I] [models.go:442]  Need to update: zh-CN/screencasts 
+2018/11/06 20:40:03.614 [I] [models.go:442]  Need to update: zh-CN/team 
+2018/11/06 20:40:03.614 [I] [models.go:442]  Need to update: zh-CN/usecases 
+2018/11/06 20:40:03.614 [I] [models.go:442]  Need to update: zh-CN/utils/README 
+2018/11/06 20:40:03.614 [I] [models.go:442]  Need to update: zh-CN/utils/captcha 
+2018/11/06 20:40:03.614 [I] [models.go:442]  Need to update: zh-CN/utils/page 
+2018/11/06 20:42:01.549 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/06 20:42:01.591 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/06 20:42:22.405 [I] [docs.go:46]  intro/ 
+2018/11/06 20:50:09.353 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/06 20:50:09.389 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 09:17:49.155 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 09:17:49.187 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 09:35:29.603 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 09:35:29.632 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 09:36:42.769 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 09:36:42.802 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 09:37:30.054 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/07 09:40:58.668 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 09:40:58.700 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 09:41:03.253 [I] [graphite.go:36]  I am here 
+2018/11/07 09:41:03.253 [I] [graphite.go:48]   
+2018/11/07 09:41:03.257 [I] [docs.go:46]  [TEST]link: beego/intro/ 
+2018/11/07 09:45:08.205 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 09:45:08.236 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 09:45:22.641 [I] [graphite.go:36]  I am here 
+2018/11/07 09:45:22.641 [I] [graphite.go:48]   
+2018/11/07 09:45:22.641 [I] [graphite.go:55]  I am here 
+2018/11/07 09:45:22.643 [I] [docs.go:46]  [TEST]link: beego/intro/ 
+2018/11/07 09:50:37.424 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 09:50:37.458 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 09:51:40.765 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 09:51:40.794 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 09:55:03.646 [I] [models.go:113]  CN:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/zh-CN RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc00029c480 0xc00029c180 0xc00029c240 0xc000179e00 0xc0001780c0 0xc00029c900 0xc0000f6480 0xc0000f75c0 0xc0000f7740 0xc0000f7bc0 0xc000b22c00 0xc00029c000] dirs:map[faq:0xc00029c000 images:0xc00029c180 install:0xc00029c240 quickstart:0xc000179e00 utils:0xc000b22c00 advantage:0xc0000f6480 contributed:0xc0000f75c0 examples:0xc0000f7bc0 mvc:0xc0001780c0 deploy:0xc0000f7740 intro:0xc00029c480 module:0xc00029c900] Root:0xc0002f5ce0 Parent:<nil>}
+2018/11/07 09:55:03.671 [I] [models.go:123]  graphite:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/graphite RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc000cfe900 0xc000cfe600 0xc000cfe6c0 0xc000eb7200 0xc000cff500 0xc000cfecc0 0xc000b23e00 0xc000c7ed80 0xc000cba3c0 0xc000cbb800 0xc000eb7800 0xc000cfe480] dirs:map[contributed:0xc000c7ed80 deploy:0xc000cba3c0 examples:0xc000cbb800 faq:0xc000cfe480 intro:0xc000cfe900 module:0xc000cfecc0 advantage:0xc000b23e00 images:0xc000cfe600 install:0xc000cfe6c0 mvc:0xc000cff500 quickstart:0xc000eb7200 utils:0xc000eb7800] Root:0xc000c9c360 Parent:<nil>}
+2018/11/07 09:56:17.978 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/07 09:59:51.795 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 09:59:51.828 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 10:00:03.469 [I] [models.go:113]  CN:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/zh-CN RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc0001926c0 0xc0001923c0 0xc000192480 0xc000372900 0xc0001932c0 0xc000192a80 0xc000cbf140 0xc000cbf980 0xc000af3380 0xc000339bc0 0xc000372f00 0xc000192240] dirs:map[contributed:0xc000cbf980 module:0xc000192a80 mvc:0xc0001932c0 advantage:0xc000cbf140 deploy:0xc000af3380 examples:0xc000339bc0 faq:0xc000192240 images:0xc0001923c0 install:0xc000192480 intro:0xc0001926c0 quickstart:0xc000372900 utils:0xc000372f00] Root:0xc00041a150 Parent:<nil>}
+2018/11/07 10:00:03.477 [I] [models.go:123]  graphite:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/graphite RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc00033a540 0xc00033a240 0xc00033a300 0xc000b7c9c0 0xc00033b140 0xc00033a900 0xc000373380 0xc000373680 0xc000373800 0xc000373c80 0xc000b7cfc0 0xc00033a0c0] dirs:map[deploy:0xc000373800 examples:0xc000373c80 faq:0xc00033a0c0 module:0xc00033a900 quickstart:0xc000b7c9c0 utils:0xc000b7cfc0 advantage:0xc000373380 contributed:0xc000373680 images:0xc00033a240 install:0xc00033a300 intro:0xc00033a540 mvc:0xc00033b140] Root:0xc00041b890 Parent:<nil>}
+2018/11/07 10:01:20.198 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 10:01:20.233 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 10:01:22.824 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.833 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.877 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.881 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.888 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.892 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.895 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.897 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.899 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.902 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.905 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.909 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.912 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.917 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.921 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.925 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.927 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.930 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.935 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:22.943 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.818 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.821 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.823 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.826 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.829 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.831 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.833 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.836 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.838 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.840 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.842 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.844 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.846 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.848 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.850 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.853 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.855 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.860 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.863 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:33.866 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.143 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.148 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.150 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.156 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.166 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.170 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.174 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.196 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.198 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.204 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.211 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.214 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.218 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.219 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.222 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.224 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.225 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.227 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.230 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:34.233 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.254 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.256 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.259 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.261 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.266 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.272 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.276 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.286 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.298 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.308 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.317 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.322 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.326 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.330 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.332 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.336 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.339 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.346 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.355 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:01:39.357 [I] [docs.go:46]  [TEST]link:  
+2018/11/07 10:04:07.688 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 10:04:07.719 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 10:04:20.741 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/07 10:04:24.425 [I] [graphite.go:36]  I am here 
+2018/11/07 10:04:24.425 [I] [graphite.go:48]   
+2018/11/07 10:04:24.425 [I] [graphite.go:55]  I am here 
+2018/11/07 10:04:24.428 [I] [docs.go:46]  [TEST]link: beego/intro/ 
+2018/11/07 10:05:02.045 [I] [models.go:113]  CN:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/zh-CN RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc00029fa40 0xc00029ed80 0xc00029f200 0xc000c88300 0xc00034b740 0xc000312e40 0xc00029e180 0xc00010c540 0xc00010d2c0 0xc00029e600 0xc000c88900 0xc00029eb40] dirs:map[contributed:0xc00010c540 deploy:0xc00010d2c0 module:0xc000312e40 quickstart:0xc000c88300 utils:0xc000c88900 advantage:0xc00029e180 examples:0xc00029e600 faq:0xc00029eb40 images:0xc00029ed80 install:0xc00029f200 intro:0xc00029fa40 mvc:0xc00034b740] Root:0xc0010944e0 Parent:<nil>}
+2018/11/07 10:05:02.072 [I] [models.go:123]  graphite:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/graphite RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc000a42000 0xc000c89c80 0xc000c89d40 0xc00106e900 0xc000a42c00 0xc000a423c0 0xc000c88e40 0xc000c89140 0xc000c892c0 0xc000c89740 0xc00106ef00 0xc000c89b00] dirs:map[advantage:0xc000c88e40 deploy:0xc000c892c0 module:0xc000a423c0 mvc:0xc000a42c00 utils:0xc00106ef00 contributed:0xc000c89140 examples:0xc000c89740 faq:0xc000c89b00 images:0xc000c89c80 install:0xc000c89d40 intro:0xc000a42000 quickstart:0xc00106e900] Root:0xc001040570 Parent:<nil>}
+2018/11/07 10:05:28.067 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 10:05:28.101 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 10:05:37.687 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/07 10:05:38.819 [I] [graphite.go:36]  I am here 
+2018/11/07 10:05:38.819 [I] [graphite.go:48]   
+2018/11/07 10:06:19.403 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/07 10:06:20.692 [I] [docs.go:46]  [TEST]link: intro/upgrade.md 
+2018/11/07 10:06:51.307 [I] [docs.go:46]  [TEST]link: quickstart/ 
+2018/11/07 10:06:54.578 [I] [docs.go:46]  [TEST]link: quickstart/new.md 
+2018/11/07 10:07:24.972 [I] [graphite.go:36]  I am here 
+2018/11/07 10:07:24.972 [I] [graphite.go:48]   
+2018/11/07 10:08:51.148 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 10:08:51.182 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 10:08:54.871 [I] [graphite.go:36]  I am here 
+2018/11/07 10:08:54.871 [I] [graphite.go:48]   
+2018/11/07 10:08:56.753 [I] [graphite.go:36]  I am here 
+2018/11/07 10:08:56.753 [I] [graphite.go:48]  intro/contributing.md 
+2018/11/07 10:08:59.172 [I] [graphite.go:36]  I am here 
+2018/11/07 10:08:59.172 [I] [graphite.go:48]  install/bee.md 
+2018/11/07 10:08:59.193 [I] [graphite.go:36]  I am here 
+2018/11/07 10:08:59.193 [I] [graphite.go:48]  images/beerun.png 
+2018/11/07 10:09:06.334 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:06.334 [I] [graphite.go:48]  quickstart/router.md 
+2018/11/07 10:09:06.352 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:06.352 [I] [graphite.go:48]  images/init.png 
+2018/11/07 10:09:07.695 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:07.696 [I] [graphite.go:48]  quickstart/new.md 
+2018/11/07 10:09:07.718 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:07.718 [I] [graphite.go:48]  images/beerun.png 
+2018/11/07 10:09:09.770 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:09.771 [I] [graphite.go:48]  mvc/model/cmd.md 
+2018/11/07 10:09:12.550 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:12.550 [I] [graphite.go:48]  mvc/model/models.md 
+2018/11/07 10:09:15.193 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:15.193 [I] [graphite.go:48]  quickstart/router.md 
+2018/11/07 10:09:15.213 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:15.213 [I] [graphite.go:48]  images/init.png 
+2018/11/07 10:09:16.768 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/07 10:09:19.793 [I] [docs.go:46]  [TEST]link: intro/contributing.md 
+2018/11/07 10:09:21.010 [I] [docs.go:46]  [TEST]link: intro/releases.md 
+2018/11/07 10:09:22.476 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/07 10:09:29.556 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:29.556 [I] [graphite.go:48]   
+2018/11/07 10:09:34.017 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:34.017 [I] [graphite.go:48]  intro/ 
+2018/11/07 10:09:34.037 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:34.038 [I] [graphite.go:48]  images/flow.png 
+2018/11/07 10:09:34.039 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:34.039 [I] [graphite.go:48]  images/architecture.png 
+2018/11/07 10:09:36.546 [I] [graphite.go:36]  I am here 
+2018/11/07 10:09:36.546 [I] [graphite.go:48]   
+2018/11/07 10:10:05.240 [I] [models.go:113]  CN:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/zh-CN RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc000d30c00 0xc000c4fa40 0xc000bc4d80 0xc000349680 0xc000c4fd40 0xc000d31a40 0xc000c4ec00 0xc000c4ef00 0xc000c4f080 0xc000c4f500 0xc000349d40 0xc000c4f8c0] dirs:map[examples:0xc000c4f500 images:0xc000c4fa40 mvc:0xc000c4fd40 quickstart:0xc000349680 advantage:0xc000c4ec00 contributed:0xc000c4ef00 install:0xc000bc4d80 intro:0xc000d30c00 module:0xc000d31a40 utils:0xc000349d40 deploy:0xc000c4f080 faq:0xc000c4f8c0] Root:0xc0010f2fc0 Parent:<nil>}
+2018/11/07 10:10:05.268 [I] [models.go:123]  graphite:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/graphite RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc000372c00 0xc000372900 0xc0003729c0 0xc0002f23c0 0xc000373800 0xc000372fc0 0xc0001de3c0 0xc0001de780 0xc0001de900 0xc000372300 0xc0002f29c0 0xc000372780] dirs:map[deploy:0xc0001de900 faq:0xc000372780 install:0xc0003729c0 intro:0xc000372c00 utils:0xc0002f29c0 advantage:0xc0001de3c0 contributed:0xc0001de780 examples:0xc000372300 images:0xc000372900 module:0xc000372fc0 mvc:0xc000373800 quickstart:0xc0002f23c0] Root:0xc000e98360 Parent:<nil>}
+2018/11/07 10:15:03.065 [I] [models.go:113]  CN:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/zh-CN RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc000bc5440 0xc000bc5080 0xc000bc5140 0xc000b93e00 0xc000b920c0 0xc000bc5800 0xc000bc4180 0xc000bc4480 0xc000bc4600 0xc000bc4a80 0xc0001de180 0xc000bc4f00] dirs:map[intro:0xc000bc5440 module:0xc000bc5800 advantage:0xc000bc4180 deploy:0xc000bc4600 examples:0xc000bc4a80 faq:0xc000bc4f00 images:0xc000bc5080 install:0xc000bc5140 utils:0xc0001de180 contributed:0xc000bc4480 mvc:0xc000b920c0 quickstart:0xc000b93e00] Root:0xc0010f3b00 Parent:<nil>}
+2018/11/07 10:15:03.087 [I] [models.go:123]  graphite:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/graphite RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc0001dfd40 0xc0001dfa40 0xc0001dfb00 0xc00018ab40 0xc000338300 0xc0003723c0 0xc0001dea80 0xc0001def00 0xc0001df080 0xc0001df500 0xc00018b380 0xc0001df8c0] dirs:map[examples:0xc0001df500 faq:0xc0001df8c0 install:0xc0001dfb00 module:0xc0003723c0 mvc:0xc000338300 quickstart:0xc00018ab40 advantage:0xc0001dea80 contributed:0xc0001def00 deploy:0xc0001df080 images:0xc0001dfa40 intro:0xc0001dfd40 utils:0xc00018b380] Root:0xc0011b4180 Parent:<nil>}
+2018/11/07 10:20:03.044 [I] [models.go:113]  CN:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/zh-CN RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc0001de000 0xc000349bc0 0xc000349c80 0xc000338840 0xc0001dfc80 0xc0001de600 0xc000bc5500 0xc000348e40 0xc000348fc0 0xc000349500 0xc0003398c0 0xc000349980] dirs:map[intro:0xc0001de000 module:0xc0001de600 mvc:0xc0001dfc80 advantage:0xc000bc5500 contributed:0xc000348e40 deploy:0xc000348fc0 faq:0xc000349980 images:0xc000349bc0 quickstart:0xc000338840 utils:0xc0003398c0 examples:0xc000349500 install:0xc000349c80] Root:0xc0006e2b10 Parent:<nil>}
+2018/11/07 10:20:03.066 [I] [models.go:123]  graphite:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/graphite RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc0002f2780 0xc0002f23c0 0xc0002f2540 0xc00104ed80 0xc0002f3740 0xc0002f2c00 0xc00018a540 0xc00018af00 0xc00018b2c0 0xc00018bd40 0xc00104f380 0xc0002f2240] dirs:map[utils:0xc00104f380 contributed:0xc00018af00 deploy:0xc00018b2c0 faq:0xc0002f2240 install:0xc0002f2540 intro:0xc0002f2780 quickstart:0xc00104ed80 advantage:0xc00018a540 examples:0xc00018bd40 images:0xc0002f23c0 module:0xc0002f2c00 mvc:0xc0002f3740] Root:0xc0006e3170 Parent:<nil>}
+2018/11/07 10:22:43.083 [I] [init.go:98]  "conf/locale_zh-CN.ini": MODIFY|ATTRIB 
+2018/11/07 10:22:43.085 [I] [init.go:104]  Config Reloaded 
+2018/11/07 10:22:43.180 [I] [init.go:98]  "conf/locale_en-US.ini": MODIFY|ATTRIB 
+2018/11/07 10:22:43.181 [I] [init.go:104]  Config Reloaded 
+2018/11/07 10:25:03.801 [I] [models.go:113]  CN:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/zh-CN RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc0001df200 0xc0001decc0 0xc0001dee40 0xc000339c80 0xc000372180 0xc0001df680 0xc000348180 0xc000348480 0xc000348600 0xc000348c00 0xc00018a600 0xc0001de9c0] dirs:map[faq:0xc0001de9c0 module:0xc0001df680 quickstart:0xc000339c80 contributed:0xc000348480 deploy:0xc000348600 examples:0xc000348c00 intro:0xc0001df200 mvc:0xc000372180 utils:0xc00018a600 advantage:0xc000348180 images:0xc0001decc0 install:0xc0001dee40] Root:0xc0001c7200 Parent:<nil>}
+2018/11/07 10:25:03.831 [I] [models.go:123]  graphite:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/graphite RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc0002f2a80 0xc0002f2300 0xc0002f2480 0xc000ba5440 0xc000d306c0 0xc0002f3380 0xc00018ab40 0xc00018afc0 0xc00018b140 0xc00018b800 0xc000ba5a40 0xc00018be00] dirs:map[module:0xc0002f3380 mvc:0xc000d306c0 quickstart:0xc000ba5440 deploy:0xc00018b140 faq:0xc00018be00 examples:0xc00018b800 images:0xc0002f2300 install:0xc0002f2480 intro:0xc0002f2a80 utils:0xc000ba5a40 advantage:0xc00018ab40 contributed:0xc00018afc0] Root:0xc0001c7860 Parent:<nil>}
+2018/11/07 10:30:03.028 [I] [models.go:113]  CN:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/zh-CN RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc00018b200 0xc00018ac00 0xc00018acc0 0xc00104e0c0 0xc0002f2780 0xc00018b980 0xc000338540 0xc000338c00 0xc000339140 0xc000339e00 0xc00104e6c0 0xc00018a900] dirs:map[intro:0xc00018b200 quickstart:0xc00104e0c0 contributed:0xc000338c00 examples:0xc000339e00 images:0xc00018ac00 install:0xc00018acc0 mvc:0xc0002f2780 utils:0xc00104e6c0 advantage:0xc000338540 deploy:0xc000339140 faq:0xc00018a900 module:0xc00018b980] Root:0xc000b7abd0 Parent:<nil>}
+2018/11/07 10:30:03.055 [I] [models.go:123]  graphite:&{root:false IsDir:true Path:/Users/kunliang/work/go/src/github.com/luoyeaichifan/beeweb/docs/graphite RelPath:. FileRelPath: FilePath: Date:0001-01-01 00:00:00 +0000 UTC Name: Sort:0 Link: Docs:[0xc000ba4180 0xc00104fe00 0xc00104fec0 0xc000652000 0xc000ba4f00 0xc000ba4600 0xc00104ec00 0xc00104efc0 0xc00104f140 0xc00104f740 0xc000653c80 0xc00104fc80] dirs:map[advantage:0xc00104ec00 deploy:0xc00104f140 faq:0xc00104fc80 install:0xc00104fec0 intro:0xc000ba4180 contributed:0xc00104efc0 examples:0xc00104f740 images:0xc00104fe00 module:0xc000ba4600 mvc:0xc000ba4f00 quickstart:0xc000652000 utils:0xc000653c80] Root:0xc000b7b230 Parent:<nil>}
+2018/11/07 10:35:10.667 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 10:35:10.703 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 10:35:28.343 [I] [crawler.go:36]  I am here 
+2018/11/07 10:35:28.343 [I] [crawler.go:48]   
+2018/11/07 10:35:31.424 [I] [graphite.go:36]  I am here 
+2018/11/07 10:35:31.424 [I] [graphite.go:48]  quickstart/controller.md 
+2018/11/07 10:35:31.638 [I] [graphite.go:36]  I am here 
+2018/11/07 10:35:31.638 [I] [graphite.go:48]  quickstart/controller.md 
+2018/11/07 10:35:32.811 [I] [graphite.go:36]  I am here 
+2018/11/07 10:35:32.811 [I] [graphite.go:48]  quickstart/view.md 
+2018/11/07 10:35:37.916 [I] [graphite.go:36]  I am here 
+2018/11/07 10:35:37.916 [I] [graphite.go:48]   
+2018/11/07 10:47:17.041 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 10:47:17.076 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 10:48:55.283 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 10:48:55.323 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 10:49:18.760 [I] [crawler.go:36]  I am here 
+2018/11/07 10:49:18.761 [I] [crawler.go:48]   
+2018/11/07 10:49:20.067 [I] [graphite.go:36]  I am here 
+2018/11/07 10:49:20.067 [I] [graphite.go:48]  intro/releases.md 
+2018/11/07 10:49:20.093 [I] [graphite.go:36]  I am here 
+2018/11/07 10:49:20.093 [I] [graphite.go:48]  images/adminui.png 
+2018/11/07 10:49:20.103 [I] [graphite.go:36]  I am here 
+2018/11/07 10:49:20.103 [I] [graphite.go:48]  images/docs.png 
+2018/11/07 10:49:20.103 [I] [graphite.go:36]  I am here 
+2018/11/07 10:49:20.103 [I] [graphite.go:48]  images/doc_test.png 
+2018/11/07 10:49:22.373 [I] [graphite.go:36]  I am here 
+2018/11/07 10:49:22.373 [I] [graphite.go:48]  install/bee.md 
+2018/11/07 10:49:22.397 [I] [graphite.go:36]  I am here 
+2018/11/07 10:49:22.397 [I] [graphite.go:48]  images/beerun.png 
+2018/11/07 10:49:23.714 [I] [graphite.go:36]  I am here 
+2018/11/07 10:49:23.714 [I] [graphite.go:48]  quickstart/router.md 
+2018/11/07 10:49:23.738 [I] [graphite.go:36]  I am here 
+2018/11/07 10:49:23.738 [I] [graphite.go:48]  images/init.png 
+2018/11/07 10:49:26.405 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/07 10:49:27.542 [I] [graphite.go:36]  I am here 
+2018/11/07 10:49:27.542 [I] [graphite.go:48]   
+2018/11/07 10:49:28.728 [I] [crawler.go:36]  I am here 
+2018/11/07 10:49:28.728 [I] [crawler.go:48]   
+2018/11/07 10:49:29.425 [I] [graphite.go:36]  I am here 
+2018/11/07 10:49:29.425 [I] [graphite.go:48]   
+2018/11/07 11:09:55.715 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 11:09:55.745 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 11:10:20.754 [I] [graphite.go:36]  I am here 
+2018/11/07 11:10:20.754 [I] [graphite.go:48]   
+2018/11/07 11:11:17.239 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 11:11:17.272 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 11:11:23.908 [I] [graphite.go:36]  I am here 
+2018/11/07 11:11:23.908 [I] [graphite.go:48]   
+2018/11/07 11:11:29.183 [I] [graphite.go:36]  I am here 
+2018/11/07 11:11:29.183 [I] [graphite.go:48]  1_what_is_graphite/1_什么是时间序列数据.md 
+2018/11/07 11:11:38.515 [I] [graphite.go:36]  I am here 
+2018/11/07 11:11:38.515 [I] [graphite.go:48]  intro/ 
+2018/11/07 11:11:38.543 [I] [graphite.go:36]  I am here 
+2018/11/07 11:11:38.543 [I] [graphite.go:48]  images/architecture.png 
+2018/11/07 11:11:38.582 [I] [graphite.go:36]  I am here 
+2018/11/07 11:11:38.582 [I] [graphite.go:48]  images/flow.png 
+2018/11/07 11:12:10.702 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 11:12:10.748 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 11:12:13.253 [I] [graphite.go:36]  I am here 
+2018/11/07 11:12:13.253 [I] [graphite.go:48]   
+2018/11/07 11:12:20.563 [I] [graphite.go:36]  I am here 
+2018/11/07 11:12:20.563 [I] [graphite.go:48]  1_what_is_graphite/1_什么是时间序列数据.md 
+2018/11/07 11:12:30.800 [I] [graphite.go:36]  I am here 
+2018/11/07 11:12:30.800 [I] [graphite.go:48]  1_what_is_graphite/1_什么是时间序列数据.md 
+2018/11/07 14:23:07.766 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 14:23:07.793 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 14:23:29.158 [I] [graphite.go:36]  I am here 
+2018/11/07 14:23:29.158 [I] [graphite.go:48]   
+2018/11/07 14:23:31.574 [I] [graphite.go:36]  I am here 
+2018/11/07 14:23:31.574 [I] [graphite.go:48]  1_what_is_graphite/1_什么是时间序列数据.md 
+2018/11/07 19:06:56.963 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/07 19:06:56.996 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/07 19:07:12.731 [I] [graphite.go:36]  I am here 
+2018/11/07 19:07:12.731 [I] [graphite.go:48]   
+2018/11/07 19:07:22.961 [I] [graphite.go:36]  I am here 
+2018/11/07 19:07:22.961 [I] [graphite.go:48]  1_what_is_graphite/1_什么是时间序列数据.md 
+2018/11/07 19:07:26.094 [I] [graphite.go:36]  I am here 
+2018/11/07 19:07:26.094 [I] [graphite.go:48]  1_what_is_graphite/1_什么是时间序列数据.md 
+2018/11/07 19:07:44.157 [I] [crawler.go:36]  I am here 
+2018/11/07 19:07:44.157 [I] [crawler.go:48]   
+2018/11/08 14:58:46.614 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/08 14:58:46.642 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/08 14:59:08.579 [I] [graphite.go:36]  I am here 
+2018/11/08 14:59:08.579 [I] [graphite.go:48]   
+2018/11/08 14:59:15.931 [I] [graphite.go:36]  I am here 
+2018/11/08 14:59:15.931 [I] [graphite.go:48]  2_go/1_go与postman.md 
+2018/11/08 14:59:30.805 [I] [graphite.go:36]  I am here 
+2018/11/08 14:59:30.805 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
+2018/11/08 15:05:49.153 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/08 15:05:49.185 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/08 15:05:54.051 [I] [graphite.go:36]  I am here 
+2018/11/08 15:05:54.051 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
+2018/11/08 15:06:01.527 [I] [graphite.go:36]  I am here 
+2018/11/08 15:06:01.527 [I] [graphite.go:48]  2_go/1_go与postman.md 
+2018/11/08 15:07:04.493 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/08 15:07:04.527 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/08 15:07:12.755 [I] [graphite.go:36]  I am here 
+2018/11/08 15:07:12.755 [I] [graphite.go:48]  2_go/1_go与postman.md 
+2018/11/08 15:08:02.136 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/08 15:08:02.163 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/08 15:08:11.069 [I] [graphite.go:36]  I am here 
+2018/11/08 15:08:11.069 [I] [graphite.go:48]  2_go/1_go与postman.md 
+2018/11/08 15:08:11.071 [I] [graphite.go:36]  I am here 
+2018/11/08 15:08:11.071 [I] [graphite.go:48]  2_go/1_go与postman.md 
+2018/11/09 17:33:44.013 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/09 17:33:44.044 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/09 17:33:55.281 [I] [graphite.go:36]  I am here 
+2018/11/09 17:33:55.281 [I] [graphite.go:48]   
+2018/11/09 17:34:01.883 [I] [graphite.go:36]  I am here 
+2018/11/09 17:34:01.883 [I] [graphite.go:48]  2_go/1_go与postman.md 
+2018/11/09 17:34:05.751 [I] [graphite.go:36]  I am here 
+2018/11/09 17:34:05.751 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
+2018/11/09 17:34:10.564 [I] [graphite.go:36]  I am here 
+2018/11/09 17:34:10.564 [I] [graphite.go:48]  2_go/3_http:https压力测试.md 
+2018/11/10 09:49:01.776 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/10 09:49:01.814 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/10 09:49:15.755 [I] [graphite.go:36]  I am here 
+2018/11/10 09:49:15.755 [I] [graphite.go:48]   
+2018/11/10 09:49:30.018 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/10 09:49:31.481 [I] [graphite.go:36]  I am here 
+2018/11/10 09:49:31.481 [I] [graphite.go:48]   
+2018/11/10 09:49:33.990 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/10 09:49:34.823 [I] [graphite.go:36]  I am here 
+2018/11/10 09:49:34.823 [I] [graphite.go:48]   
+2018/11/10 09:49:36.093 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/10 09:49:36.952 [I] [graphite.go:36]  I am here 
+2018/11/10 09:49:36.952 [I] [graphite.go:48]   
+2018/11/10 09:49:38.322 [I] [crawler.go:36]  I am here 
+2018/11/10 09:49:38.322 [I] [crawler.go:48]   
+2018/11/10 09:49:39.372 [I] [graphite.go:36]  I am here 
+2018/11/10 09:49:39.372 [I] [graphite.go:48]   
+2018/11/10 09:49:40.256 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/10 09:49:44.836 [I] [graphite.go:36]  I am here 
+2018/11/10 09:49:44.837 [I] [graphite.go:48]   
+2018/11/10 09:50:48.497 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/10 09:50:48.529 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/10 09:50:57.804 [I] [graphite.go:36]  I am here 
+2018/11/10 09:50:57.804 [I] [graphite.go:48]   
+2018/11/10 09:51:12.097 [I] [crawler.go:36]  I am here 
+2018/11/10 09:51:12.100 [I] [crawler.go:48]   
+2018/11/10 09:51:14.150 [I] [crawler.go:36]  I am here 
+2018/11/10 09:51:14.150 [I] [crawler.go:48]   
+2018/11/10 09:51:16.580 [I] [graphite.go:36]  I am here 
+2018/11/10 09:51:16.580 [I] [graphite.go:48]   
+2018/11/10 09:51:18.005 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/10 09:51:21.081 [I] [docs.go:46]  [TEST]link: intro/ 
+2018/11/10 09:51:21.870 [I] [graphite.go:36]  I am here 
+2018/11/10 09:51:21.870 [I] [graphite.go:48]   
+2018/11/10 09:51:42.536 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/10 09:51:42.572 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/10 09:51:48.237 [I] [graphite.go:36]  I am here 
+2018/11/10 09:51:48.238 [I] [graphite.go:48]   
+2018/11/10 09:52:00.596 [I] [graphite.go:36]  I am here 
+2018/11/10 09:52:00.596 [I] [graphite.go:48]  2_go/3_http:https压力测试.md 
+2018/11/10 09:52:02.960 [I] [graphite.go:36]  I am here 
+2018/11/10 09:52:02.960 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
+2018/11/10 09:52:04.741 [I] [graphite.go:36]  I am here 
+2018/11/10 09:52:04.741 [I] [graphite.go:48]  2_go/3_http:https压力测试.md 
+2018/11/10 09:52:07.127 [I] [graphite.go:36]  I am here 
+2018/11/10 09:52:07.127 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
+2018/11/10 09:52:09.849 [I] [graphite.go:36]  I am here 
+2018/11/10 09:52:09.849 [I] [graphite.go:48]  2_go/3_http:https压力测试.md 
+2018/11/10 09:52:20.555 [I] [graphite.go:36]  I am here 
+2018/11/10 09:52:20.555 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
+2018/11/10 09:53:48.263 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/10 09:53:48.293 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/10 09:53:48.521 [I] [graphite.go:36]  I am here 
+2018/11/10 09:53:48.521 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
+2018/11/10 09:53:55.426 [I] [graphite.go:36]  I am here 
+2018/11/10 09:53:55.426 [I] [graphite.go:48]  1_what_is_graphite/1_什么是时间序列数据.md 
+2018/11/10 09:54:01.716 [I] [graphite.go:36]  I am here 
+2018/11/10 09:54:01.716 [I] [graphite.go:48]  2_go/1_go与postman.md 
+2018/11/10 09:54:05.578 [I] [graphite.go:36]  I am here 
+2018/11/10 09:54:05.578 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
+2018/11/10 09:54:10.490 [I] [graphite.go:36]  I am here 
+2018/11/10 09:54:10.491 [I] [graphite.go:48]  2_go/3_http:https压力测试.md 
+2018/11/10 09:54:12.255 [I] [graphite.go:36]  I am here 
+2018/11/10 09:54:12.255 [I] [graphite.go:48]  install/ 
+2018/11/10 09:54:12.271 [I] [graphite.go:36]  I am here 
+2018/11/10 09:54:12.271 [I] [graphite.go:48]  images/git-branch-1.png 
+2018/11/10 09:54:15.726 [I] [graphite.go:36]  I am here 
+2018/11/10 09:54:15.726 [I] [graphite.go:48]  3_command/1_curl.md 
+2018/11/10 09:54:30.398 [I] [graphite.go:36]  I am here 
+2018/11/10 09:54:30.399 [I] [graphite.go:48]  3_command/2_go与火焰图trace.md 
+2018/11/10 12:20:44.971 [I] [crawler.go:36]  I am here 
+2018/11/10 12:20:44.973 [I] [crawler.go:48]   
+2018/11/10 12:20:46.904 [I] [graphite.go:36]  I am here 
+2018/11/10 12:20:46.904 [I] [graphite.go:48]   
+2018/11/10 12:20:51.688 [I] [graphite.go:36]  I am here 
+2018/11/10 12:20:51.688 [I] [graphite.go:48]  2_go/3_http:https压力测试.md 
+2018/11/10 12:20:53.687 [I] [graphite.go:36]  I am here 
+2018/11/10 12:20:53.688 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
+2018/11/10 12:20:54.460 [I] [graphite.go:36]  I am here 
+2018/11/10 12:20:54.460 [I] [graphite.go:48]  2_go/1_go与postman.md 
+2018/11/10 12:20:55.172 [I] [graphite.go:36]  I am here 
+2018/11/10 12:20:55.172 [I] [graphite.go:48]  2_go/3_http:https压力测试.md 
+2018/11/10 12:21:04.899 [I] [graphite.go:36]  I am here 
+2018/11/10 12:21:04.899 [I] [graphite.go:48]  3_command/2_go与火焰图trace.md 
+2018/11/10 12:21:10.136 [I] [graphite.go:36]  I am here 
+2018/11/10 12:21:10.136 [I] [graphite.go:48]  3_command/1_curl.md 
+2018/11/10 12:22:26.062 [I] [graphite.go:36]  I am here 
+2018/11/10 12:22:26.063 [I] [graphite.go:48]  3_command/1_curl.md 
+2018/11/10 12:22:31.679 [I] [graphite.go:36]  I am here 
+2018/11/10 12:22:31.679 [I] [graphite.go:48]  3_command/1_curl.md 
+2018/11/10 12:22:37.923 [I] [graphite.go:36]  I am here 
+2018/11/10 12:22:37.924 [I] [graphite.go:48]  3_command/1_curl.md 
+2018/11/10 12:22:53.626 [I] [graphite.go:36]  I am here 
+2018/11/10 12:22:53.626 [I] [graphite.go:48]  quickstart/ 
+2018/11/10 12:22:58.531 [I] [graphite.go:36]  I am here 
+2018/11/10 12:22:58.531 [I] [graphite.go:48]  quickstart/new.md 
+2018/11/10 12:22:58.553 [I] [graphite.go:36]  I am here 
+2018/11/10 12:22:58.553 [I] [graphite.go:48]  images/beerun.png 
+2018/11/10 12:23:03.676 [I] [graphite.go:36]  I am here 
+2018/11/10 12:23:03.677 [I] [graphite.go:48]  mvc/model/orm.md 
+2018/11/10 12:24:13.373 [I] [graphite.go:36]  I am here 
+2018/11/10 12:24:13.373 [I] [graphite.go:48]   
