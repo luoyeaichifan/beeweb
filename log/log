@@ -16,3 +16,13 @@
 2018/11/13 10:53:15.667 [I] [graphite.go:48]   
 2018/11/13 10:53:17.076 [I] [graphite.go:36]  I am here 
 2018/11/13 10:53:17.076 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
+2018/11/14 13:00:40.501 [I] [beeweb.go:52]  beego 1.0.0 
+2018/11/14 13:00:40.536 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/11/14 13:00:49.161 [I] [graphite.go:36]  I am here 
+2018/11/14 13:00:49.161 [I] [graphite.go:48]   
+2018/11/14 13:00:53.093 [I] [graphite.go:36]  I am here 
+2018/11/14 13:00:53.093 [I] [graphite.go:48]  2_go/4_syncpool.md 
+2018/11/14 13:01:02.375 [I] [graphite.go:36]  I am here 
+2018/11/14 13:01:02.375 [I] [graphite.go:48]  2_go/3_http:https压力测试.md 
+2018/11/14 13:01:08.888 [I] [graphite.go:36]  I am here 
+2018/11/14 13:01:08.888 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
