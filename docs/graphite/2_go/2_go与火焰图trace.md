@@ -3,7 +3,7 @@ name: go与火焰图 trace
 sort: 1
 ---
 
-关于火焰图与trace的使用
+## 关于火焰图与trace的使用
 
 go-torch appBin test.prof -f test.svg
 
@@ -101,3 +101,33 @@ go get -v github.com/uber/go-torch
     	}
     }
 ```
+
+## 原生工具使用:
+
+- 1、main函数中添加_ "net/http/pprof"
+
+	```
+	func init() {
+	http.HandleFunc("/debug/pprof/", Index)
+	http.HandleFunc("/debug/pprof/cmdline", Cmdline)
+	http.HandleFunc("/debug/pprof/profile", Profile)
+	http.HandleFunc("/debug/pprof/symbol", Symbol)
+	http.HandleFunc("/debug/pprof/trace", Trace)
+	}
+	```
+- 2、监听一个http端口即可
+
+- 3、访问方法
+	
+	```
+	 go tool pprof --seconds 25 http://localhost:9090/debug/pprof/profile
+	```
+	```
+	或者网页访问:http://127.0.0.1:12345/debug/pprof/
+	```
+	
+	![123](../../beedoc/images/svg.png)
+	
+	
+	
+	出现 Failed to execute dot. Is Graphviz installed? Error: exec: "dot": executable file not found in $PATH 报错, 需要安装 graphviz 在 mac 上就直接 brew install graphviz 即可
