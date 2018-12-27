@@ -1,5 +1,5 @@
 ---
 root: true
-name: 代理上网
+name: other
 sort: 3
 ---

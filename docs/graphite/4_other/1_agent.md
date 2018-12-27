@@ -93,16 +93,6 @@ pip install shadowsocks
 vi /etc/shadowsocks.json
 填写以下内容
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
 {
   "server":"x.x.x.x",             #你的 ss 服务器 ip
   "server_port":0,                #你的 ss 服务器端口
@@ -114,16 +104,12 @@ vi /etc/shadowsocks.json
   "workers": 1                    #工作线程数
 }
 启动
-1
-2
+
 nohup sslocal -c /etc/shadowsocks.json /dev/null 2>&1 &
 echo " nohup sslocal -c /etc/shadowsocks.json /dev/null 2>&1 &" /etc/rc.local   #设置自启动
 测试
 运行 curl --socks5 127.0.0.1:1985 http://httpbin.org/ip，如果返回你的 ss 服务器 ip 则测试成功：
 
-1
-2
-3
 {
   "origin": "x.x.x.x"       #你的 ss 服务器 ip
 }
@@ -132,9 +118,6 @@ Shadowsocks 是一个 socket5 服务，我们需要使用 Privoxy 把流量转�
 
 ###下载安装文件
 
-1
-2
-3
 wget http://www.privoxy.org/sf-download-mirror/Sources/3.0.26%20%28stable%29/privoxy-3.0.26-stable-src.tar.gz
 tar -zxvf privoxy-3.0.26-stable-src.tar.gz
 cd privoxy-3.0.26-stable

@@ -148,3 +148,11 @@
 2018/11/19 13:00:11.409 [I] [graphite.go:36]  I am here 
 2018/11/19 13:00:11.409 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
 2018/11/19 17:15:20.012 [W] [http.go:48]  Canceled request for %s https://api.github.com/repos/beego/beedoc/git/trees/master?recursive=1&client_id=&client_secret= 
+2018/12/03 15:52:59.484 [I] [beeweb.go:52]  beego 1.0.0 
+2018/12/03 15:52:59.516 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2018/12/03 15:53:09.354 [I] [graphite.go:36]  I am here 
+2018/12/03 15:53:09.354 [I] [graphite.go:48]   
+2018/12/03 15:53:14.757 [I] [graphite.go:36]  I am here 
+2018/12/03 15:53:14.757 [I] [graphite.go:48]  4_代理上网/1_curl.md 
+2018/12/03 15:53:22.290 [I] [graphite.go:36]  I am here 
+2018/12/03 15:53:22.291 [I] [graphite.go:48]  2_go/10_git.md 
