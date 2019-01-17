@@ -168,3 +168,34 @@
 2018/12/27 22:17:53.531 [I] [graphite.go:48]  2_go/1_go与postman.md 
 2018/12/27 22:17:54.546 [I] [graphite.go:36]  I am here 
 2018/12/27 22:17:54.546 [I] [graphite.go:48]  2_go/2_go与火焰图trace.md 
+2019/01/16 10:03:27.272 [I] [beeweb.go:52]  beego 1.0.0 
+2019/01/16 10:03:27.297 [I] [asm_amd64.s:1333]  http server Running on http://:8080
+2019/01/16 10:03:48.794 [I] [graphite.go:36]  I am here 
+2019/01/16 10:03:48.794 [I] [graphite.go:48]   
+2019/01/16 10:04:01.488 [I] [docs.go:46]  [TEST]link: intro/ 
+2019/01/16 10:04:38.921 [I] [docs.go:46]  [TEST]link: intro/ 
+2019/01/16 10:04:42.472 [I] [graphite.go:36]  I am here 
+2019/01/16 10:04:42.472 [I] [graphite.go:48]   
+2019/01/16 10:04:46.287 [I] [crawler.go:36]  I am here 
+2019/01/16 10:04:46.287 [I] [crawler.go:48]   
+2019/01/16 10:08:13.161 [I] [graphite.go:36]  I am here 
+2019/01/16 10:08:13.165 [I] [graphite.go:48]   
+2019/01/16 10:08:40.656 [I] [graphite.go:36]  I am here 
+2019/01/16 10:08:40.656 [I] [graphite.go:48]  2_go/8_前端文件打包进go程序.md 
+2019/01/16 10:08:42.927 [I] [graphite.go:36]  I am here 
+2019/01/16 10:08:42.928 [I] [graphite.go:48]  2_go/9_go与redis.md 
+2019/01/16 10:13:22.661 [I] [crawler.go:36]  I am here 
+2019/01/16 10:13:22.662 [I] [crawler.go:48]   
+2019/01/16 10:13:25.135 [I] [graphite.go:36]  I am here 
+2019/01/16 10:13:25.136 [I] [graphite.go:48]   
+2019/01/16 10:13:26.380 [I] [docs.go:46]  [TEST]link: intro/ 
+2019/01/16 10:13:27.565 [I] [graphite.go:36]  I am here 
+2019/01/16 10:13:27.565 [I] [graphite.go:48]   
+2019/01/16 10:13:34.283 [I] [graphite.go:36]  I am here 
+2019/01/16 10:13:34.283 [I] [graphite.go:48]  1_what_is_graphite/1_什么是时间序列数据.md 
+2019/01/16 10:13:56.443 [I] [graphite.go:36]  I am here 
+2019/01/16 10:13:56.443 [I] [graphite.go:48]  2_go/1_go与postman.md 
+2019/01/16 10:13:57.421 [I] [graphite.go:36]  I am here 
+2019/01/16 10:13:57.426 [I] [graphite.go:48]  2_go/1_go与postman.md 
+2019/01/16 15:00:20.027 [W] [http.go:48]  Canceled request for %s https://api.github.com/repos/beego/beedoc/git/trees/master?recursive=1&client_id=&client_secret= 
+2019/01/16 18:45:20.016 [W] [http.go:48]  Canceled request for %s https://api.github.com/repos/beego/beedoc/git/trees/master?recursive=1&client_id=&client_secret= 
