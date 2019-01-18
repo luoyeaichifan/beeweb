@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/howeyc/fsnotify"
+	"github.com/howeyc/fsnotify"//File system notifications for Go
 
 	"github.com/astaxie/beego"
 	"github.com/beego/compress"
@@ -80,8 +80,11 @@ func initTemplates() {
 }
 
 func InitApp() {
+	//在模版中注册函数
 	initTemplates()
+	// 选择语言
 	initLocales()
+	// 压缩js css
 	settingCompress()
 
 	watcher, err := fsnotify.NewWatcher()
@@ -89,6 +92,7 @@ func InitApp() {
 		panic("Failed start app watcher: " + err.Error())
 	}
 
+	// ini json变更动态更改
 	go func() {
 		for {
 			select {

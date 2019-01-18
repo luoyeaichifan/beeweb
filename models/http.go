@@ -79,6 +79,7 @@ func getHttpJson(url string, v interface{}) error {
 	return errors.New("can't get infomation")
 }
 
+//利用文件个数，创建对应channel，失败一个，全部结束
 func getFiles(files []*rawFile) error {
 	ch := make(chan error, len(files))
 	for i := range files {

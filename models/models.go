@@ -86,6 +86,7 @@ func InitModels() {
 	initMaps()
 	initProuctCase()
 
+	//每5min检查文件更新
 	updateTask := toolbox.NewTask("check file update", "0 */5 * * * *", checkFileUpdates)
 
 	if needCheckUpdate() {
@@ -122,23 +123,45 @@ func parseDocs() {
 		//beego.Info(fmt.Sprintf(fmt.Sprintf("graphite:%+v", root.Doc)))
 	}
 
-	root, err = ParseDocs("docs/en-US")
+
+	root, err = ParseDocs("docs/go")
 	if err != nil {
 		beego.Error(err)
 	}
 
 	if root != nil {
-		docs["en-US"] = root
+		docs["go"] = root
+		//beego.Info(fmt.Sprintf(fmt.Sprintf("graphite:%+v", root.Doc)))
 	}
 
-	root, err = ParseDocs("docs/ru-RU")
+	root, err = ParseDocs("docs/js")
 	if err != nil {
 		beego.Error(err)
 	}
 
 	if root != nil {
-		docs["ru-RU"] = root
+		docs["js"] = root
+		//beego.Info(fmt.Sprintf(fmt.Sprintf("graphite:%+v", root.Doc)))
 	}
+
+
+	//root, err = ParseDocs("docs/en-US")
+	//if err != nil {
+	//	beego.Error(err)
+	//}
+	//
+	//if root != nil {
+	//	docs["en-US"] = root
+	//}
+	//
+	//root, err = ParseDocs("docs/ru-RU")
+	//if err != nil {
+	//	beego.Error(err)
+	//}
+	//
+	//if root != nil {
+	//	docs["ru-RU"] = root
+	//}
 }
 
 func needCheckUpdate() bool {
@@ -182,7 +205,7 @@ func initDocMap() {
 			docTree.Tree = append(docTree.Tree, oldDocNode{Path: v})
 		}
 	}
-
+	beego.Info("[TEST]docTree.Tree", docTree.Tree)
 	docLock.Lock()
 	defer docLock.Unlock()
 
@@ -385,8 +408,8 @@ func checkFileUpdates() error {
 
 	var trees = []*tree{
 		{
-			ApiUrl:   "https://api.github.com/repos/beego/beedoc/git/trees/master?recursive=1&" + githubCred,
-			RawUrl:   "https://raw.github.com/beego/beedoc/master/",
+			ApiUrl:   "https://api.github.com/repos/luoyeaichifan/docs/git/trees/master?recursive=1&" + githubCred,
+			RawUrl:   "https://raw.github.com/luoyeaichifan/docs/master/",
 			TreeName: "conf/docTree.json",
 			Prefix:   "docs/",
 		},
@@ -423,9 +446,8 @@ func checkFileUpdates() error {
 		files := make([]*rawFile, 0, len(tmpTree.Tree))
 		for _, node := range tmpTree.Tree {
 			// Skip non-md files and "README.md".
-			if node.Type != "blob" || (!strings.HasSuffix(node.Path, ".md") &&
-				!strings.Contains(node.Path, "images") &&
-				!strings.HasSuffix(node.Path, ".json")) ||
+			if node.Type != "blob" ||
+				(!strings.HasSuffix(node.Path, ".md") && !strings.Contains(node.Path, "images") && !strings.HasSuffix(node.Path, ".json")) ||
 				strings.HasPrefix(strings.ToLower(node.Path), "readme") {
 				continue
 			}
@@ -440,6 +462,7 @@ func checkFileUpdates() error {
 				})
 			}
 
+			// 更新sha值
 			saveTree.Tree = append(saveTree.Tree, &oldDocNode{
 				Path: name,
 				Sha:  node.Sha,

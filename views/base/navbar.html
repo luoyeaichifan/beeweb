@@ -17,7 +17,7 @@
                     <span class="icon-bar"></span>
                 </a>
                 <a class="hidden-xs logo" href="/">
-                    <img style="height:32px;width:102px;" src="/static/img/beego_purple.png">
+                    <img style="height:32px;width:102px;" src="/static/img/logo2.svg">
                 </a>
                 <div class="visible-xs text-center">
                     <a class="navbar-brand" href="/">
@@ -33,15 +33,19 @@
             <div class="collapse navbar-collapse" role="navigation" id="navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li {{if .IsHome}}class="active"{{end}}><a href="/">{{i18n .Lang "home"}}</a></li>
-                    <li {{if .IsQuickStart}}class="active"{{end}}><a href="/quickstart">{{i18n .Lang "getting started"}}</a></li>
-                    <li {{if .IsCommunity}}class="active"{{end}}><a href="/community">{{i18n .Lang "community"}}</a></li>
-                    <li {{if .IsDocs}}class="active"{{end}}><a href="/docs/intro/">{{i18n .Lang "docs"}}</a></li>
+                    <li {{if .IsGo}}class="active"{{end}}><a href="/go">{{i18n .Lang "docs_go"}}</a></li>
+                    <li {{if .IsJS}}class="active"{{end}}><a href="/js">{{i18n .Lang "docs_js"}}</a></li>
+                    <!--<li {{if .IsQuickStart}}class="active"{{end}}><a href="/quickstart">{{i18n .Lang "getting started"}}</a></li>-->
+                    <!--<li {{if .IsCommunity}}class="active"{{end}}><a href="/community">{{i18n .Lang "community"}}</a></li>-->
+
                     <li {{if .IsGraphite}}class="active"{{end}}><a href="/graphite">{{i18n .Lang "docs_graphite"}}</a></li>
                     <li {{if .IsCrawler}}class="active"{{end}}><a href="/crawler">{{i18n .Lang "crawler"}}</a></li>
-                    <li {{if .IsVideo}}class="active"{{end}}><a href="/video">{{i18n .Lang "video"}}</a></li>
-                    <li {{if .IsProducts}}class="active"{{end}}><a href="/products">{{i18n .Lang "products"}}</a></li>
-                    <li {{if .IsBlog}}class="active"{{end}}><a href="/blog">{{i18n .Lang "blog"}}</a></li>
+                    <li {{if .IsDocs}}class="active"{{end}}><a href="/docs/intro/">beego</a></li>
+                    <!--<li {{if .IsVideo}}class="active"{{end}}><a href="/video">{{i18n .Lang "video"}}</a></li>-->
+                    <!--<li {{if .IsProducts}}class="active"{{end}}><a href="/products">{{i18n .Lang "products"}}</a></li>-->
+                    <!--<li {{if .IsBlog}}class="active"{{end}}><a href="/blog">{{i18n .Lang "blog"}}</a></li>-->
                 </ul>
+                <!--
                 <div class="hidden-sm hidden-xs nav-lang pull-right">
                     <div class="btn-group">
                         <button type="button" class="btn btn-xs btn-default btn-md dropdown-toggle" data-toggle="dropdown">{{i18n .Lang "current_lang"}}{{i18n .Lang .Lang}} <i class="caret"></i></button>
@@ -56,6 +60,7 @@
                     <span rel="show-github" data-user="astaxie" data-repo="beego"></span>
                     <span rel="show-github" data-user="astaxie" data-repo="beego" data-type="fork"></span>
                 </div>
+                -->
             </div>
         </div>
     </div>
