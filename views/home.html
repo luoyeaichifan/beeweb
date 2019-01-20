@@ -4,68 +4,125 @@
     <meta name="keywords" content="Go, golang, beego, graphite, grafana, python, spider, html, css, js, vue">
     <title>{{i18n .Lang "homepage"}} - beego: {{i18n .Lang "app_intro"}}</title>
 {{end}}
-{{define "head"}}{{end}}
+{{define "head"}}
+<style type="text/css">
+    img {
+        border-radius: 50%;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    img:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+</style>
+{{end}}
 {{define "body"}}
 <div class="main-header">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="title">
-                    Beego Framework
+                    学习笔记
                 </div>
                 <div class="desc">
                     {{i18n .Lang "home.beego_desc"}}
                 </div>
+                <!--
                 <div class="actions">
                     <a href="/docs/intro/" class="btn btn-lg btn-info">{{i18n .Lang "learn more"}}</a>
                     <a href="/quickstart" class="btn btn-lg btn-success">{{i18n .Lang "get started"}}</a>
                     <span style="position:absolute;margin:10px 0 0 40px;">{{i18n .Lang "version"}}</span>
                 </div>
+                -->
+
             </div>
         </div>
     </div>
 </div>
 <div class="container">
     <div class="row home-box">
-        <div class="col-md-8">
-            <h2>{{i18n .Lang "home.quick_start"}}</h2>
+        <div class="col-md-12">
+            <h2>{{i18n .Lang "常用链接"}}</h2>
             <div class="row">
-                <div class="col-md-6">
-                    <div class="markdown">
-                        {{if eq .Lang "zh-CN"}}
-                            <p>下载安装</p>
-                            <pre lang="bash"><code>go get github.com/astaxie/beego</code></pre>
-                            <p>创建文件 <code>hello.go</code></p>
-                            <pre lang="go"><code>package main<br><br>import "github.com/astaxie/beego"<br><br>func main() {<br>    beego.Run()<br>}</code></pre>
-                        {{else}}
-                            <p>Download and install</p>
-                            <pre lang="bash"><code>go get github.com/astaxie/beego</code></pre>
-                            <p>Create file <code>hello.go</code></p>
-                            <pre lang="go"><code>package main<br><br>import "github.com/astaxie/beego"<br><br>func main() {<br>    beego.Run()<br>}</code></pre>
-                        {{end}}
-                    </div>
+                <div class="col-md-3">
+                    <a href="https://wht.im/" target="_blank"> <img border="0" style="height:32px;width:32px;" src="/static/img/links/wanhuatong.png" /></a>
                 </div>
-                <div class="col-md-6">
-                    <div class="markdown">
-                        {{if eq .Lang "zh-CN"}}
-                            <p>编译运行</p>
-                            <pre lang="bash"><code>go build -o hello hello.go<br>./hello</code></pre>
-                            <p>浏览效果</p>
-                            <p>打开浏览器并访问 <code>http://localhost:8080</code></p>
-                            <p>恭喜！您已经成功构建了第一个 beego 项目。</p>
-                            <p>请查阅 <a href="/docs">开发文档</a> 以进行深入学习。</p>
-                        {{else}}
-                            <p>Build and run</p>
-                            <pre lang="bash"><code>go build hello.go<br>./hello</code></pre>
-                            <p>View effects</p>
-                            <p>Open your browser and visit <code>http://localhost:8080</code></p>
-                            <p>Congratulations! You just built your first beego app.</p>
-                            <p>Please see <a href="/docs">Documentation</a> for going further.</p>
-                        {{end}}
-                    </div>
+                <div class="col-md-3">
+                    <a href="https://www.baidu.com/" target="_blank"> <img border="0" style="height:32px;width:32px;" src="/static/img/links/baidu.png" /></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.google.com/" target="_blank"> <img border="0" style="height:32px;width:64px;" src="/static/img/links/guge.png" /></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="http://www.bejson.com/" target="_blank"><strong>bejson</strong></a>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="https://github.com/luoyeaichifan"  target="_blank"> <img border="0" style="height:32px;width:32px;" src="/static/img/links/github.png" /></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.oschina.net/"  target="_blank"> <img border="0" style="height:32px;width:80px;" src="/static/img/links/kaiyuanzhongguo.png" /></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://blog.csdn.net/b0701"  target="_blank"> <img border="0" style="height:32px;width:32px;" src="/static/img/links/csdn.png" /></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://tool.lu/"  target="_blank"> <strong>在线工具</strong></a>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="http://jspang.com/"  target="_blank"> <strong>技术胖</strong></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.liaoxuefeng.com/"  target="_blank"> <strong>廖雪峰官网</strong></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.yishulun.com"  target="_blank"> <strong>艺术论</strong></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.processon.com/"  target="_blank"> <strong>在线作图</strong></a>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="https://www.bookstack.cn"  target="_blank"> <img border="0" style="height:32px;width:32px;" src="/static/img/links/shuzhanwang.png"/>书栈</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="/static/html/regexp.html"  target="_blank"> <strong>正则</strong></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="/static/img/links/asc.jpg"  target="_blank"> <strong>ascii</strong></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="http://www.fontawesome.com.cn/"  target="_blank"> <strong>字体库</strong></a>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="http://www.walle-web.io/"  target="_blank"><strong>部署工具</strong></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.echartsjs.com/examples/"  target="_blank"> <strong>炫酷图</strong></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="http://www.runoob.com/docker/docker-tutorial.html"  target="_blank"> <strong>docker</strong></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="http://tongji.baidu.com/data/"  target="_blank"> <strong>百度统计</strong></a>
                 </div>
             </div>
         </div>
+        <!--
         <div class="col-md-4">
             <div class="home-box">
                 <h2>{{i18n .Lang "home.further_reading"}}</h2>
@@ -88,8 +145,10 @@
                 </div>
             </div>
         </div>
+        -->
     </div>
 </div>
+        <!--
 <div class="container">
     <div class="row home-box">
         <div class="col-md-12">
@@ -200,6 +259,7 @@
         </div>
     </div>
 </div>
+-->
 <div class="container">
 <!-- {{template "tweets.html" .}} -->
 </div>
