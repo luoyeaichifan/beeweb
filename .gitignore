@@ -15,3 +15,5 @@ bale/
 bale.go
 *.go~
 .idea
+conf
+beeweb
