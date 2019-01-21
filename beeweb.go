@@ -51,14 +51,18 @@ func main() {
 
 	beego.Info(beego.BConfig.AppName, APP_VER)
 
-	beego.InsertFilter("/docs/images/:all", beego.BeforeRouter, routers.DocsStatic)
+	//beego.InsertFilter("/docs/images/:all", beego.BeforeRouter, routers.DocsStatic)
+
+
+	beego.InsertFilter("*/images/:all", beego.BeforeRouter, routers.DocsStatic)
+	//beego.InsertFilter("/*", beego.BeforeRouter, routers.DocsStatic)
 
 	if !routers.IsPro {
 		beego.SetStaticPath("/static_source", "static_source")
 		beego.BConfig.WebConfig.DirectoryIndex = true
 	}
 
-	beego.SetStaticPath("/products/images", "products/images/")
+	//beego.SetStaticPath("/products/images", "products/images/")
 
 	// Register routers.
 	beego.Router("/", &routers.HomeRouter{})
