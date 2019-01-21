@@ -45,7 +45,7 @@ func (this *OtherRouter) Get() {
 	}
 
 	link := this.GetString(":splat")
-	beego.Info(link)
+	beego.Info("link:", link)
 	var doc *models.DocNode
 	if len(link) == 0 {
 		if dRoot.Doc != nil {
