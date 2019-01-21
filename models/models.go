@@ -185,8 +185,7 @@ func needCheckUpdate() bool {
 		return true
 	}
 
-	if !utils.FileExists("conf/docTree.json") || !utils.FileExists("conf/blogTree.json") ||
-		!utils.FileExists("conf/productTree.json") {
+	if !utils.FileExists("conf/docTree.json") {
 		return true
 	}
 
@@ -226,17 +225,17 @@ func initDocMap() {
 	defer docLock.Unlock()
 
 	docMap = make(map[string]*docFile)
-	langs := strings.Split(beego.AppConfig.String("lang::types"), "|")
+	types := strings.Split(beego.AppConfig.String("navbar::types"), "|")
 
 	os.Mkdir("docs", os.ModePerm)
-	for _, l := range langs {
-		os.Mkdir("docs/"+l, os.ModePerm)
+	for _, typeNavbar := range types {
+		os.Mkdir("docs/"+typeNavbar, os.ModePerm)
 		for _, v := range docTree.Tree {
 			var fullName string
 			if isConfExist {
 				fullName = v.Path
 			} else {
-				fullName = l + "/" + v.Path
+				fullName = typeNavbar + "/" + v.Path
 			}
 
 			docMap[fullName] = getFile("docs/" + fullName)
@@ -457,7 +456,7 @@ func checkFileUpdates() error {
 		if err != nil {
 			return errors.New("models.checkFileUpdates -> get trees: " + err.Error())
 		}
-		beego.Info(fmt.Sprintf("tmpTree:%+v", tmpTree.Tree))
+
 		var saveTree struct {
 			Tree []*oldDocNode
 		}
@@ -492,11 +491,15 @@ func checkFileUpdates() error {
 			node.Path = name
 		}
 
+
+		beego.Info("files:", files)
+
 		// Fetch files.
 		if err := getFiles(files); err != nil {
 			return errors.New("models.checkFileUpdates -> fetch files: " + err.Error())
 		}
 
+		beego.Info("get files over")
 		// Update data.
 		for _, f := range files {
 			os.MkdirAll(path.Join(tree.Prefix, path.Dir(f.name)), os.ModePerm)

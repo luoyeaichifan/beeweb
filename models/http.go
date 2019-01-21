@@ -81,6 +81,9 @@ func getHttpJson(url string, v interface{}) error {
 
 //利用文件个数，创建对应channel，失败一个，全部结束
 func getFiles(files []*rawFile) error {
+	if len(files) == 0 {
+		return nil
+	}
 	ch := make(chan error, len(files))
 	lenFile := len(files)
 	for i := range files {
