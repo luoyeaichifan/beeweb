@@ -34,7 +34,7 @@ type OtherRouter struct {
 func (this *OtherRouter) Get() {
 
 	beego.Info("I am here")
-	this.Data["IsGo"] = true
+	this.Data["IsOther"] = true
 	this.TplName = "other.html"
 
 	dRoot := models.GetDocByLocale("go")
