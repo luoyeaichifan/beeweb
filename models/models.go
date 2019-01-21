@@ -220,7 +220,7 @@ func initDocMap() {
 			docTree.Tree = append(docTree.Tree, oldDocNode{Path: v})
 		}
 	}
-	beego.Info("[TEST]docTree.Tree", docTree.Tree)
+	//beego.Info("[TEST]docTree.Tree", docTree.Tree)
 	docLock.Lock()
 	defer docLock.Unlock()
 
@@ -473,7 +473,7 @@ func checkFileUpdates() error {
 			}
 
 			name := strings.TrimSuffix(node.Path, ".md")
-			beego.Info("name:", name)
+			//beego.Info("name:", name)
 			if checkSHA(name, node.Sha, tree.Prefix) {
 				beego.Info("Need to update:", name)
 				files = append(files, &rawFile{

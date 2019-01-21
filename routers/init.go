@@ -20,14 +20,14 @@ var (
 func initLocales() {
 	// Initialized language type list.
 	langs := strings.Split(beego.AppConfig.String("lang::types"), "|")
-	//names := strings.Split(beego.AppConfig.String("lang::names"), "|")
-	//langTypes = make([]*langType, 0, len(langs))
-	//for i, v := range langs {
-	//	langTypes = append(langTypes, &langType{
-	//		Lang: v,
-	//		Name: names[i],
-	//	})
-	//}
+	names := strings.Split(beego.AppConfig.String("lang::names"), "|")
+	langTypes = make([]*langType, 0, len(langs))
+	for i, v := range langs {
+		langTypes = append(langTypes, &langType{
+			Lang: v,
+			Name: names[i],
+		})
+	}
 
 	for _, lang := range langs {
 		beego.Trace("Loading language: " + lang)
