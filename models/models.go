@@ -146,6 +146,17 @@ func parseDocs() {
 		beego.Info(fmt.Sprintf(fmt.Sprintf("js:%+v", root.Doc)))
 	}
 
+	root, err = ParseDocs("docs/other")
+	if err != nil {
+		beego.Error(err)
+	}
+
+	if root != nil {
+		docs["other"] = root
+		beego.Info(fmt.Sprintf(fmt.Sprintf("other:%+v", root.Doc)))
+	}
+
+
 
 	//root, err = ParseDocs("docs/en-US")
 	//if err != nil {

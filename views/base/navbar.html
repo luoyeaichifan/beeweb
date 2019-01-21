@@ -41,6 +41,9 @@
                     <li {{if .IsGraphite}}class="active"{{end}}><a href="/graphite">graphite/grafana</a></li>
                     <li {{if .IsCrawler}}class="active"{{end}}><a href="/crawler">{{i18n .Lang "crawler"}}</a></li>
                     <li {{if .IsDocs}}class="active"{{end}}><a href="/docs/intro/">beego</a></li>
+                    <li {{if .IsOther}}class="active"{{end}}><a href="/docs/other/">other</a></li>
+
+
                     <!--<li {{if .IsVideo}}class="active"{{end}}><a href="/video">{{i18n .Lang "video"}}</a></li>-->
                     <!--<li {{if .IsProducts}}class="active"{{end}}><a href="/products">{{i18n .Lang "products"}}</a></li>-->
                     <!--<li {{if .IsBlog}}class="active"{{end}}><a href="/blog">{{i18n .Lang "blog"}}</a></li>-->

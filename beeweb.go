@@ -77,6 +77,8 @@ func main() {
 	beego.Router("/go/*", &routers.GoRouter{})
 	beego.Router("/js", &routers.JSRouter{})
 	beego.Router("/js/*", &routers.JSRouter{})
+	beego.Router("/other", &routers.JSRouter{})
+	beego.Router("/other/*", &routers.JSRouter{})
 	beego.Router("/graphite", &routers.GraphiteRouter{})
 	beego.Router("/graphite/*", &routers.GraphiteRouter{})
 	beego.Router("/crawler", &routers.CrawlerRouter{})
