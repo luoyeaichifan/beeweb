@@ -18,6 +18,7 @@ package models
 import (
 	"encoding/json"
 	"errors"
+	"fmt"
 	"os"
 	"path"
 	"strconv"
@@ -84,12 +85,13 @@ func InitModels() {
 
 	parseDocs()
 	initMaps()
-	initProuctCase()
+	//initProuctCase()
 
 	//每5min检查文件更新
 	updateTask := toolbox.NewTask("check file update", "0 */5 * * * *", checkFileUpdates)
 
 	if needCheckUpdate() {
+		beego.Info("updateTask.Run")
 		if err := updateTask.Run(); err != nil {
 			beego.Error(err)
 		}
@@ -110,7 +112,7 @@ func parseDocs() {
 
 	if root != nil {
 		docs["zh-CN"] = root
-		//beego.Info(fmt.Sprintf(fmt.Sprintf("CN:%+v", root.Doc)))
+		beego.Info(fmt.Sprintf(fmt.Sprintf("CN:%+v", root.Doc)))
 	}
 
 	root, err = ParseDocs("docs/graphite")
@@ -120,7 +122,7 @@ func parseDocs() {
 
 	if root != nil {
 		docs["graphite"] = root
-		//beego.Info(fmt.Sprintf(fmt.Sprintf("graphite:%+v", root.Doc)))
+		beego.Info(fmt.Sprintf(fmt.Sprintf("graphite:%+v", root.Doc)))
 	}
 
 
@@ -131,7 +133,7 @@ func parseDocs() {
 
 	if root != nil {
 		docs["go"] = root
-		//beego.Info(fmt.Sprintf(fmt.Sprintf("graphite:%+v", root.Doc)))
+		beego.Info(fmt.Sprintf(fmt.Sprintf("go:%+v", root.Doc)))
 	}
 
 	root, err = ParseDocs("docs/js")
@@ -141,7 +143,7 @@ func parseDocs() {
 
 	if root != nil {
 		docs["js"] = root
-		//beego.Info(fmt.Sprintf(fmt.Sprintf("graphite:%+v", root.Doc)))
+		beego.Info(fmt.Sprintf(fmt.Sprintf("js:%+v", root.Doc)))
 	}
 
 
@@ -167,6 +169,7 @@ func parseDocs() {
 func needCheckUpdate() bool {
 	// Does not have record for check update.
 	stamp, err := beego.AppConfig.Int64("app::update_check_time")
+	beego.Info("stamp:", stamp)
 	if err != nil {
 		return true
 	}
@@ -184,6 +187,8 @@ func initDocMap() {
 	docNames := make([]string, 0, 20)
 	docNames = append(docNames, strings.Split(
 		beego.AppConfig.String("app::doc_names"), "|")...)
+
+	beego.Info("docNames:", docNames)
 
 	isConfExist := utils.FileExists("conf/docTree.json")
 	if isConfExist {
@@ -265,8 +270,8 @@ func initBlogMap() {
 
 func initMaps() {
 	initDocMap()
-	initBlogMap()
-	initProuctCase()
+	//initBlogMap()
+	//initProuctCase()
 }
 
 // loadFile returns []byte of file data by given path.
@@ -400,7 +405,7 @@ func (rf *rawFile) SetData(p []byte) {
 }
 
 func checkFileUpdates() error {
-	//beego.Trace("Checking file updates")
+	beego.Trace("Checking file updates")
 
 	type tree struct {
 		ApiUrl, RawUrl, TreeName, Prefix string
@@ -410,9 +415,14 @@ func checkFileUpdates() error {
 		{
 			ApiUrl:   "https://api.github.com/repos/luoyeaichifan/docs/git/trees/master?recursive=1&" + githubCred,
 			RawUrl:   "https://raw.github.com/luoyeaichifan/docs/master/",
+
+			//raw.github.com/beego/beedoc
+			//RawUrl:   "https://raw.github.com/beego/beedoc/master/",
 			TreeName: "conf/docTree.json",
 			Prefix:   "docs/",
 		},
+		/*
+
 		{
 			ApiUrl:   "https://api.github.com/repos/beego/beeblog/git/trees/master?recursive=1&" + githubCred,
 			RawUrl:   "https://raw.github.com/beego/beeblog/master/",
@@ -424,7 +434,7 @@ func checkFileUpdates() error {
 			RawUrl:   "https://raw.github.com/beego/products/master/",
 			TreeName: "conf/productTree.json",
 			Prefix:   "products/",
-		},
+		},*/
 	}
 
 	for _, tree := range trees {
@@ -436,7 +446,7 @@ func checkFileUpdates() error {
 		if err != nil {
 			return errors.New("models.checkFileUpdates -> get trees: " + err.Error())
 		}
-
+		beego.Info(fmt.Sprintf("tmpTree:%+v", tmpTree.Tree))
 		var saveTree struct {
 			Tree []*oldDocNode
 		}
@@ -453,7 +463,7 @@ func checkFileUpdates() error {
 			}
 
 			name := strings.TrimSuffix(node.Path, ".md")
-
+			beego.Info("name:", name)
 			if checkSHA(name, node.Sha, tree.Prefix) {
 				beego.Info("Need to update:", name)
 				files = append(files, &rawFile{

@@ -82,14 +82,18 @@ func getHttpJson(url string, v interface{}) error {
 //利用文件个数，创建对应channel，失败一个，全部结束
 func getFiles(files []*rawFile) error {
 	ch := make(chan error, len(files))
+	lenFile := len(files)
 	for i := range files {
 		go func(i int) {
+
+			beego.Info("rawURL:", files[i].rawURL)
 			req, err := http.NewRequest("GET", files[i].rawURL, nil)
 			if err != nil {
 				ch <- err
 				return
 			}
 			req.Header.Set("User-Agent", userAgent)
+			httpClient.Timeout = time.Second * 300
 			resp, err := httpClient.Do(req)
 			if err != nil {
 				ch <- err
@@ -107,9 +111,33 @@ func getFiles(files []*rawFile) error {
 			ch <- nil
 		}(i)
 	}
-	for _ = range files {
-		if err := <-ch; err != nil {
-			return err
+	//for _ = range files {
+	//	if err := <-ch; err != nil {
+	//		//return err
+	//		beego.Info("err:", err)
+	//	}
+	//}
+
+	num := 0
+	for {
+		flag := false
+		select {
+		case <-time.After(time.Duration(300) * time.Second):
+			beego.Error("timeout")
+			flag = true
+			break
+		case err := <-ch:
+			num++
+			if err != nil {
+				beego.Error("err:", err)
+			}
+			if lenFile == num {
+				flag = true
+				break
+			}
+		}
+		if flag == true {
+			break
 		}
 	}
 	return nil
