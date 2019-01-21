@@ -37,7 +37,7 @@ func (this *OtherRouter) Get() {
 	this.Data["IsOther"] = true
 	this.TplName = "other.html"
 
-	dRoot := models.GetDocByLocale("go")
+	dRoot := models.GetDocByLocale("other")
 
 	if dRoot == nil {
 		this.Abort("404")
