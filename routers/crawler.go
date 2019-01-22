@@ -15,13 +15,7 @@
 package routers
 
 import (
-	"io"
-	"os"
-
 	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/context"
-	"github.com/beego/i18n"
-
 	"github.com/luoyeaichifan/beeweb/models"
 )
 
@@ -35,9 +29,9 @@ func (this *CrawlerRouter) Get() {
 
 	beego.Info("I am here")
 	this.Data["IsCrawler"] = true
-	this.TplName = "graphite.html"
+	this.TplName = "crawler.html"
 
-	dRoot := models.GetDocByLocale("graphite")
+	dRoot := models.GetDocByLocale("crawler")
 
 	if dRoot == nil {
 		this.Abort("404")
@@ -74,24 +68,4 @@ func (this *CrawlerRouter) Get() {
 	this.Data["Data"] = doc.GetContent()
 }
 
-func CrawerStatic(ctx *context.Context) {
-	if uri := ctx.Input.Param(":all"); len(uri) > 0 {
-		lang := ctx.GetCookie("lang")
-		if !i18n.IsExist(lang) {
-			lang = "en-US"
-		}
 
-		f, err := os.Open("docs/" + lang + "/" + "images/" + uri)
-		if err != nil {
-			ctx.WriteString(err.Error())
-			return
-		}
-		defer f.Close()
-
-		_, err = io.Copy(ctx.ResponseWriter, f)
-		if err != nil {
-			ctx.WriteString(err.Error())
-			return
-		}
-	}
-}

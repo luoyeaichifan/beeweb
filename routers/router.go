@@ -43,6 +43,8 @@ type baseRouter struct {
 
 // Prepare implemented Prepare method for baseRouter.
 func (this *baseRouter) Prepare() {
+
+	beego.Info("Prepare url", this.Ctx.Request.URL.String())
 	// Setting properties.
 	this.Data["AppVer"] = AppVer
 	this.Data["IsPro"] = IsPro

@@ -14,6 +14,11 @@
 
 package routers
 
+import (
+	"github.com/astaxie/beego"
+	"strings"
+)
+
 // HomeRouter serves home page.
 type HomeRouter struct {
 	baseRouter
@@ -22,5 +27,6 @@ type HomeRouter struct {
 // Get implemented Get method for HomeRouter.
 func (this *HomeRouter) Get() {
 	this.Data["IsHome"] = true
+	this.Data["Pages"] = strings.Split(beego.AppConfig.String("navbar::types"), "|")
 	this.TplName = "home.html"
 }

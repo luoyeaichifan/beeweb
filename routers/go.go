@@ -43,9 +43,9 @@ func (this *GoRouter) Get() {
 		this.Abort("404")
 		return
 	}
-
+	beego.Info("url:", this.Ctx.Request.URL.String())
 	link := this.GetString(":splat")
-	beego.Info(link)
+	beego.Info("link:", link)
 	var doc *models.DocNode
 	if len(link) == 0 {
 		if dRoot.Doc != nil {
@@ -57,8 +57,11 @@ func (this *GoRouter) Get() {
 			return
 		}
 	} else {
+		beego.Info("I am here")
+		beego.Info("link:", link)
 		doc, _ = dRoot.GetNodeByLink(link)
 		if doc == nil {
+			beego.Info("I am here")
 			doc, _ = dRoot.GetNodeByLink(link + "/")
 		}
 	}

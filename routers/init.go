@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/howeyc/fsnotify"//File system notifications for Go
+	"github.com/howeyc/fsnotify" //File system notifications for Go
 
 	"github.com/astaxie/beego"
 	"github.com/beego/compress"
@@ -56,6 +56,12 @@ func settingCompress() {
 }
 
 func dict(values ...interface{}) (map[string]interface{}, error) {
+
+	//beego.Info("values len:", len(values))
+	//for i,v := range values {
+	//	beego.Info(i, fmt.Sprintf("%+v", v))
+	//}
+
 	if len(values)%2 != 0 {
 		return nil, errors.New("invalid dict call")
 	}
@@ -67,6 +73,7 @@ func dict(values ...interface{}) (map[string]interface{}, error) {
 		}
 		dict[key] = values[i+1]
 	}
+	//beego.Info(fmt.Sprintf("dict:%+v", dict))
 	return dict, nil
 }
 

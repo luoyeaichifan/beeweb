@@ -1,0 +1,61 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container" data-toggle="clingify">
+        <div class="row">
+            <div class="navbar-header">
+                {{if .IsDocs}}
+                <span class="visible-xs">
+                    <a id="docs-collapse-btn" class="navbar-btn" data-toggle="jpanel-menu" data-target="#docs-collapse">
+                        <span class="sr-only">Toggle docs menu</span>
+                        <i class="icon icon-angle-right"></i>
+                    </a>
+                </span>
+                {{end}}
+                <a type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="hidden-xs logo" href="/">
+                    <img style="height:32px;width:102px;" src="/static/img/logo2.svg">
+                </a>
+                <div class="visible-xs text-center">
+                    <a class="navbar-brand" href="/">
+                        Beego
+                    </a>
+                    {{if not .IsHome}}
+                    <span class="nav-github">
+                        <span rel="show-github" data-user="astaxie" data-repo="beego"></span>
+                    </span>
+                    {{end}}
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" role="navigation" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                   <!-- <li {{if .IsHome}}class="active"{{end}}><a href="/">home</a></li>
+                    <li {{if .IsGo}}class="active"{{end}}><a href="/go">go</a></li>
+                    <li {{if .IsJS}}class="active"{{end}}><a href="/js">js</a></li>
+
+                    <li {{if .IsGraphite}}class="active"{{end}}><a href="/graphite">graphite/grafana</a></li>
+                    <li {{if .IsCrawler}}class="active"{{end}}><a href="/crawler">crawler</a></li>
+                    <li {{if .IsDocs}}class="active"{{end}}><a href="/docs/intro/">beego</a></li>
+                    <li {{if .IsOther}}class="active"{{end}}><a href="/other">other</a></li>
+                    -->
+                    {{if .IsHome}}
+                        <li {{if .IsHome}}class="active"{{end}}><a href="/">home</a></li>
+                        {{ range $index, $elem := .Pages }}
+                            <li><a href="/navbar/{{ $elem }}">{{ $elem }}</a></li>
+                         {{ end }}
+                    {{else}}
+                        <li {{if .IsHome}}class="active"{{end}}><a href="/">home</a></li>
+                        {{ $i := $.NavbarIndex}}
+                        {{ range $index, $elem := .Pages }}
+                            <li {{if eq $i $index }}class="active"{{end}}><a href="/navbar/{{ $elem }}">{{ $elem }}</a></li>
+                        {{ end }}
+                    {{end}}
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>

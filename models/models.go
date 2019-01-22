@@ -105,58 +105,87 @@ func InitModels() {
 }
 
 func parseDocs() {
-	root, err := ParseDocs("docs/zh-CN")
-	if err != nil {
-		beego.Error(err)
+
+	types := strings.Split(beego.AppConfig.String("navbar::types"), "|")
+
+	beego.Info("types:", types)
+
+	for _,v := range types {
+		root, err := ParseDocs("docs/" + v)
+		if err != nil {
+			beego.Error(err)
+		}
+
+		if root != nil {
+			docs[v] = root
+			beego.Info(v, fmt.Sprintf(fmt.Sprintf("CN:%+v", root.Doc)))
+		}
 	}
 
-	if root != nil {
-		docs["zh-CN"] = root
-		beego.Info(fmt.Sprintf(fmt.Sprintf("CN:%+v", root.Doc)))
-	}
-
-	root, err = ParseDocs("docs/graphite")
-	if err != nil {
-		beego.Error(err)
-	}
-
-	if root != nil {
-		docs["graphite"] = root
-		beego.Info(fmt.Sprintf(fmt.Sprintf("graphite:%+v", root.Doc)))
-	}
-
-
-	root, err = ParseDocs("docs/go")
-	if err != nil {
-		beego.Error(err)
-	}
-
-	if root != nil {
-		docs["go"] = root
-		beego.Info(fmt.Sprintf(fmt.Sprintf("go:%+v", root.Doc)))
-	}
-
-	root, err = ParseDocs("docs/js")
-	if err != nil {
-		beego.Error(err)
-	}
-
-	if root != nil {
-		docs["js"] = root
-		beego.Info(fmt.Sprintf(fmt.Sprintf("js:%+v", root.Doc)))
-	}
-
-	root, err = ParseDocs("docs/other")
-	if err != nil {
-		beego.Error(err)
-	}
-
-	if root != nil {
-		docs["other"] = root
-		beego.Info(fmt.Sprintf(fmt.Sprintf("other:%+v", root.Doc)))
-	}
-
-
+//
+//
+//	root, err := ParseDocs("docs/zh-CN")
+//	if err != nil {
+//		beego.Error(err)
+//	}
+//
+//	if root != nil {
+//		docs["zh-CN"] = root
+//		beego.Info(fmt.Sprintf(fmt.Sprintf("CN:%+v", root.Doc)))
+//	}
+//
+//	root, err = ParseDocs("docs/graphite")
+//	if err != nil {
+//		beego.Error(err)
+//	}
+//
+//	if root != nil {
+//		docs["graphite"] = root
+//		beego.Info(fmt.Sprintf(fmt.Sprintf("graphite:%+v", root.Doc)))
+//	}
+//
+//
+//	root, err = ParseDocs("docs/go")
+//	if err != nil {
+//		beego.Error(err)
+//	}
+//
+//	if root != nil {
+//		docs["go"] = root
+//		beego.Info(fmt.Sprintf(fmt.Sprintf("go:%+v", root.Doc)))
+//	}
+//
+//	root, err = ParseDocs("docs/js")
+//	if err != nil {
+//		beego.Error(err)
+//	}
+//
+//	if root != nil {
+//		docs["js"] = root
+//		beego.Info(fmt.Sprintf(fmt.Sprintf("js:%+v", root.Doc)))
+//	}
+//
+//	root, err = ParseDocs("docs/other")
+//	if err != nil {
+//		beego.Error(err)
+//	}
+//
+//	if root != nil {
+//		docs["other"] = root
+//		beego.Info(fmt.Sprintf(fmt.Sprintf("other:%+v", root.Doc)))
+//	}
+//
+////crawler
+//
+//	root, err = ParseDocs("docs/other")
+//	if err != nil {
+//		beego.Error(err)
+//	}
+//
+//	if root != nil {
+//		docs["other"] = root
+//		beego.Info(fmt.Sprintf(fmt.Sprintf("other:%+v", root.Doc)))
+//	}
 
 	//root, err = ParseDocs("docs/en-US")
 	//if err != nil {

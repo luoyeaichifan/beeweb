@@ -87,6 +87,8 @@ func main() {
 	beego.Router("/graphite/*", &routers.GraphiteRouter{})
 	beego.Router("/crawler", &routers.CrawlerRouter{})
 	beego.Router("/crawler/*", &routers.CrawlerRouter{})
+	beego.Router("/navbar", &routers.NavbarRouter{})
+	beego.Router("/navbar/*", &routers.NavbarRouter{})
 	// Register template functions.
 	beego.AddFuncMap("i18n", i18n.Tr)
 

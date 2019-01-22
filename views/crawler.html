@@ -12,7 +12,7 @@
     <li class="group">
         <div class="section">
         {{if .HasContent}}
-            <a class="{{if eq $.root.Doc.Link .Link}}active{{end}} item" href="/go/{{.Link}}">{{.Name}}</a>
+            <a class="{{if eq $.root.Doc.Link .Link}}active{{end}} item" href="/crawler/{{.Link}}">{{.Name}}</a>
         {{else}}
             {{.Name}}
         {{end}}
@@ -20,7 +20,7 @@
     {{template "docs" dict "root" $.root "Doc" .}}
     </li>
 {{else}}
-    <li><a class="{{if eq $.root.Doc.Link .Link}}active{{end}} item" href="/go/{{.Link}}">{{.Name}}</a></li>
+    <li><a class="{{if eq $.root.Doc.Link .Link}}active{{end}} item" href="/crawler/{{.Link}}">{{.Name}}</a></li>
 {{end}}
 {{end}}
 </ul>
@@ -30,12 +30,11 @@
 {{define "body"}}
 <div class="container main-container">
     <div class="row">
-
         <div class="col-md-2 col-sm-3">
             <div id="docs-collapse" class="collapse navbar-collapse docs-sidenav">
             {{with .DocRoot.Doc}}
             {{if .HasContent}}
-                <div class="section"><a class="{{if eq $.Doc.Link .Link}}active{{end}} item" href="/go">{{.Name}}</a></div>
+                <div class="section"><a class="{{if eq $.Doc.Link .Link}}active{{end}} item" href="/crawler">{{.Name}}</a></div>
             {{end}}
             {{template "docs" dict "root" $ "Doc" .}}
             {{end}}
@@ -43,7 +42,7 @@
         </div>
         <div class="col-md-10 col-sm-9">
             <div class="box">
-                <!--<div>
+                <div>
                     <script>
                         (function() {
                             var cx = '{{i18n .Lang  "googlesearch"}}';
@@ -57,7 +56,7 @@
                         })();
                     </script>
                     <gcse:search></gcse:search>
-                </div>-->
+                </div>
                 <div class="cell slim page-box">
                     <p>
                         <a href="https://github.com/luoyeaichifan/docs" class="pull-right btn btn-info" target="_blank">{{i18n .Lang "improve doc on github"}}</a>
@@ -72,7 +71,7 @@
             <script type="text/javascript">
                 var disqus_url = 'http://beego.me/docs/go/' + '{{.Doc.Link}}?lang={{.Lang}}';
             </script>
-            {{template "base/disqus.html" .}}
+        {{template "base/disqus.html" .}}
         -->
         </div>
     </div>
