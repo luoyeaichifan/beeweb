@@ -35,6 +35,8 @@ func DocsStatic(ctx *context.Context) {
 			url = "docs/" + "graphite/"  + "images/" + uri
 		} else if strings.Contains(rowUrl, "/crawler/"){
 			url = "docs/" + "crawler/"  + "images/" + uri
+		} else if strings.Contains(rowUrl, "/beego/"){
+			url = "docs/" + "beego/"  + "images/" + uri
 		}
 		beego.Info("url:", url)
 		f, err := os.Open(url)
