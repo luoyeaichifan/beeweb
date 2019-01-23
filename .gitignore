@@ -15,6 +15,6 @@ bale/
 bale.go
 *.go~
 .idea
-conf
 beeweb
-
+conf/docTree.json
+/conf/docTree.json
