@@ -66,6 +66,8 @@ func (this *NavbarRouter) Get() {
 
 				beego.Info("link:", link)
 				beego.Info("1")
+				link = strings.TrimPrefix(link, "/")
+				beego.Info("link:", link)
 				doc, _ = dRoot.GetNodeByLink(link)
 				if doc == nil {
 					beego.Info("2")
