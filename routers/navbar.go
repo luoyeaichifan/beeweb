@@ -49,7 +49,7 @@ func (this *NavbarRouter) Get() {
 			link := this.GetString(":splat")
 
 			beego.Info("link:", link)
-			link = strings.TrimPrefix(link, v + "/")
+			link = strings.TrimLeft(link, v + "/")
 			beego.Info("link:", link)
 			var doc *models.DocNode
 			if len(link) == 0 {
