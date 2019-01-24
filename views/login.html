@@ -1,0 +1,63 @@
+{{template "base/baselogin.html" .}}
+{{define "meta"}}
+<meta name="description" content="login" />
+<meta name="keywords" content="Go, golang, beego, graphite, grafana, python, spider, html, css, js, vue">
+<title>{{i18n .Lang "homepage"}} - beego: {{i18n .Lang "app_intro"}}</title>
+{{end}}
+{{define "head"}}
+
+{{end}}
+
+{{define "body"}}
+<!-- Top content -->
+<div class="top-content">
+
+    <div class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 form-box">
+                    <div class="form-top">
+                        <div class="form-top-left">
+                        </div>
+                        <div class="form-top-right">
+                            <i class="fa fa-key"></i>
+                        </div>
+                    </div>
+                    <div class="form-bottom">
+
+                        <form role="form" action="/login" method="post" class="login-form">
+                            <p class="bg-danger text-danger">{{.msg}}</p>
+                            <div class="form-group">
+                                <label class="sr-only" for="username">Username</label>
+                                <input type="text" name="username" placeholder="邮箱前缀..." class="form-username form-control" id="username">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="form-password">Password</label>
+                                <input type="password" name="password" placeholder="邮箱密码..." class="form-password form-control" id="password">
+                            </div>
+                            <button type="submit" class="btn">登录</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row">
+                <div class="col-sm-6 col-sm-offset-3 social-admin">
+                    <h3>...or admin with:</h3>
+                    <div class="social-admin-buttons">
+                        <a class="btn btn-link-1 btn-link-1-facebook" href="#">
+                            <i class="fa fa-facebook"></i> Facebook
+                        </a>
+                        <a class="btn btn-link-1 btn-link-1-twitter" href="#">
+                            <i class="fa fa-twitter"></i> Twitter
+                        </a>
+                        <a class="btn btn-link-1 btn-link-1-google-plus" href="#">
+                            <i class="fa fa-google-plus"></i> Google Plus
+                        </a>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+
+</div>
+{{end}}

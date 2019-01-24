@@ -59,7 +59,10 @@
                     "bootstrap-theme.css",
                     "font-awesome.min.css",
                     "prettify.css",
-                    "select2.css"
+                    "select2.css",
+                    "bootstrap-switch.min.css",
+                    "form-elements.css",
+                    "jquery.terminal.min.css"
                 ],
                 "SkipFiles": [
                     "font-awesome.min.css",
@@ -82,7 +85,8 @@
                 "SourceFiles": [
                     "base.css",
                     "markdown.css",
-                    "main.css"
+                    "main.css",
+                    "style.css"
                 ]
             }
         }
