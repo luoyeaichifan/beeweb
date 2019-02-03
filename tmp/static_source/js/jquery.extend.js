@@ -1,0 +1,2 @@
+(function(c){(function(){var f=c.ajax;c.extend({ajax:function(b,a){"object"===typeof b&&(a=b,b=void 0);a=a||{};b=a.url;var g=c("meta[name=_xsrf]").attr("content"),h=c("[name=_once]").filter(":last").val(),d=a.headers||{},k=document.domain.replace(/\./ig,"\\.");if(!/^(http:|https:).*/.test(b)||eval("/^(http:|https:)\\/\\/(.+\\.)*"+k+".*/").test(b))d=c.extend(d,{"X-Xsrftoken":g,"X-Form-Once":h});a.headers=d;var e=a.success;a.success=function(a){a.once&&c("[name=_once]").val(a.once);e&&e.apply(this,
+arguments)};return f(b,a)}})})()})(jQuery);
