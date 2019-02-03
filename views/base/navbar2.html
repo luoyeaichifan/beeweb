@@ -55,6 +55,22 @@
                     {{end}}
 
                 </ul>
+
+                <div class="hidden-sm hidden-xs nav-lang pull-right">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-xs btn-default btn-md dropdown-toggle" data-toggle="dropdown">{{i18n .Lang "current_lang"}}{{i18n .Lang .Lang}} <i class="caret"></i></button>
+                        <ul class="dropdown-menu">
+                        {{range .RestLangs}}
+                            <li><a href="javascript::" data-lang="{{.Lang}}" class="lang-changed">{{i18n $.Lang .Name}}</a></li>
+                        {{end}}
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-sm hidden-xs nav-github pull-right">
+                    <span rel="show-github" data-user="astaxie" data-repo="beego"></span>
+                    <span rel="show-github" data-user="astaxie" data-repo="beego" data-type="fork"></span>
+                </div>
+
             </div>
         </div>
     </div>

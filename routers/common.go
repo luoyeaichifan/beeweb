@@ -25,19 +25,30 @@ func DocsStatic(ctx *context.Context) {
 		beego.Info("URL:", "docs/"  + "images/" + uri)
 		rowUrl := ctx.Request.URL.String()
 		url := ""
-		if strings.Contains(rowUrl, "/go/") {
-			url = "docs/" + "go/"  + "images/" + uri
-		} else if strings.Contains(rowUrl, "/docs/"){
-			url = "docs/" + "zh-CN/" + "images/" + uri
-		} else if strings.Contains(rowUrl, "/js/"){
-			url = "docs/" + "js/"  + "images/" + uri
-		} else if strings.Contains(rowUrl, "/graphite/"){
-			url = "docs/" + "graphite/"  + "images/" + uri
-		} else if strings.Contains(rowUrl, "/crawler/"){
-			url = "docs/" + "crawler/"  + "images/" + uri
-		} else if strings.Contains(rowUrl, "/beego/"){
-			url = "docs/" + "beego/"  + "images/" + uri
+		//if strings.Contains(rowUrl, "/go/") {
+		//	url = "docs/" + "go/"  + "images/" + uri
+		//} else if strings.Contains(rowUrl, "/docs/"){
+		//	url = "docs/" + "zh-CN/" + "images/" + uri
+		//} else if strings.Contains(rowUrl, "/js/"){
+		//	url = "docs/" + "js/"  + "images/" + uri
+		//} else if strings.Contains(rowUrl, "/graphite/"){
+		//	url = "docs/" + "graphite/"  + "images/" + uri
+		//} else if strings.Contains(rowUrl, "/crawler/"){
+		//	url = "docs/" + "crawler/"  + "images/" + uri
+		//} else if strings.Contains(rowUrl, "/beego/"){
+		//	url = "docs/" + "beego/"  + "images/" + uri
+		//}
+
+		navbars := strings.Split(beego.AppConfig.String("navbar::types"), "|")
+
+
+		for _, v := range navbars {
+			if strings.Contains(rowUrl, "/"+ v +"/"){
+				url = "docs/" +v+  "/"  + "images/" + uri
+				break
+			}
 		}
+
 		beego.Info("url:", url)
 		f, err := os.Open(url)
 		if err != nil {

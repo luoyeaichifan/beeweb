@@ -106,7 +106,7 @@ func InitApp() {
 			case event := <-watcher.Event:
 				switch filepath.Ext(event.Name) {
 				case ".ini":
-					beego.Info(event)
+					beego.Info("event:", event)
 
 					if err := i18n.ReloadLangs(); err != nil {
 						beego.Error("Conf Reload: ", err)
