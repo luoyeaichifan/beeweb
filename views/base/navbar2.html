@@ -23,11 +23,13 @@
                     <a class="navbar-brand" href="/">
                         Beego
                     </a>
+                    <!--
                     {{if not .IsHome}}
                     <span class="nav-github">
                         <span rel="show-github" data-user="astaxie" data-repo="beego"></span>
                     </span>
                     {{end}}
+                    -->
                 </div>
             </div>
             <div class="collapse navbar-collapse" role="navigation" id="navbar-collapse">
@@ -41,6 +43,17 @@
                     <li {{if .IsDocs}}class="active"{{end}}><a href="/docs/intro/">beego</a></li>
                     <li {{if .IsOther}}class="active"{{end}}><a href="/other">other</a></li>
                     -->
+
+<!--
+                    <li class="active"><a href="/go">go</a></li>
+                    <li class="active"><a href="/js">js</a></li>
+
+                    <li class="active"><a href="/graphite">graphite/grafana</a></li>
+                    <li class="active"><a href="/crawler">crawler</a></li>
+                    <li class="active"><a href="/docs/intro/">beego</a></li>
+                    <li class="active"><a href="/other">other</a></li>
+-->
+
                     {{if .IsHome}}
                         <li {{if .IsHome}}class="active"{{end}}><a href="/">home</a></li>
                         {{ range $index, $elem := .Pages }}
@@ -53,6 +66,7 @@
                             <li {{if eq $i $index }}class="active"{{end}}><a href="/navbar/{{ $elem }}">{{ $elem }}</a></li>
                         {{ end }}
                     {{end}}
+
 
                 </ul>
             </div>

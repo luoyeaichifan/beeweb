@@ -89,6 +89,7 @@ func (this *NavbarRouter) Get() {
 			this.Data["Doc"] = doc
 			this.Data["Title"] = doc.Name
 			this.Data["Data"] = doc.GetContent()
+			this.Data["IsDocs"] = true
 
 			//beego.Info(fmt.Printf("doc:%#v", doc))
 			//
