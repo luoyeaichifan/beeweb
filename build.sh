@@ -3,4 +3,4 @@ ps aufx | grep beeweb | grep -v grep | awk -F " " '{print $2}' | xargs -I {} ech
 ps aufx | grep beeweb | grep -v grep | awk -F " " '{print $2}' | xargs -I {} kill -9 {}
 cd $GOPATH/src/github.com/luoyeaichifan/beeweb
 go build
-./beeweb &
+ nohup ./beeweb >> proxy.log 2>&1 &
